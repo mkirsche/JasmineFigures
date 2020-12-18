@@ -3,3 +3,5 @@
 *.class
 *.txt
 figures/jasmine_plot/.R*
+*.gz
+*.tbi
