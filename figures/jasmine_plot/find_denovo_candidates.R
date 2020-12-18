@@ -5,6 +5,7 @@ library(stringr)
 library(reshape2)
 library(gridExtra)
 library(rlist)
+library(here)
 
 find_denovo <- function(merged_table_file, outfile) {
   variants = read.table(merged_table_file, comment.char = "#", sep = "\t", header = T, stringsAsFactors=FALSE)
@@ -36,7 +37,7 @@ find_denovo <- function(merged_table_file, outfile) {
           plot.title = element_text(hjust = 0.5, size = 18))
   ggsave(outfile, device = "png", height = 8, width = 8)
 }
-
-merged_table_file <- "/home/mkirsche/jasmine_data/figures/figure4/denovo.merged.tsv"
-outfile <- "/home/mkirsche/jasmine_data/figures/figure4/denovocandidates.png"
+projectroot <- here()
+merged_table_file <- paste(projectroot, "/figures/figure4/denovo.merged.tsv", sep = "")
+outfile <- paste(projectroot, "/figures/figure4/denovocandidates.png", sep = "")
 find_denovo(merged_table_file, outfile)

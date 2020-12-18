@@ -7,7 +7,7 @@ library(gridExtra)
 library(rlist)
 library(VennDiagram)
 library(Cairo)
-
+library(here)
 
 suppvec_hist <- function(df, caller, outfile, filter) {
   if (filter)
@@ -130,42 +130,39 @@ tech_specific_length <- function(df, caller, outfile, filter)
   ggsave(outfile, width= 12, height = 8)
 }
 
-fn <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech.merged.tsv'
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_suppvecs.png'
+projectroot <- here()
+projectroot <- '/home/mkirsche/jasmine_data'
+
+fn <- paste(projectroot, '/figures/figure3/hg002_crosstech.merged.tsv', sep = '')
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_suppvecs.png', sep = '')
 df <- read.table(fn, sep = "\t", header = TRUE)
 caller <- 'Jasmine CrossTech'
 suppvec_hist(df, "Jasmine CrossTech", outfile, FALSE)
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_suppvecs_spec_prec.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_suppvecs_spec_prec.png', sep = '')
 suppvec_hist(df, "Jasmine CrossTech", outfile, TRUE)
 
 # Hifi-unique variants
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_hifi.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_hifi.png', sep = '')
 tech_specific(df %>% filter(SUPP_VEC == 100), "Hifi Only", outfile, TRUE)
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_hifi_indels.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_hifi_indels.png', sep = '')
 tech_specific_length(df %>% filter(SUPP_VEC == 100), "Hifi Only", outfile, TRUE)
 
 # CLR-unique variants
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_clr.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_clr.png', sep = '')
 tech_specific(df %>% filter(SUPP_VEC == 010), "CLR Only", outfile, TRUE)
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_clr_indels.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_clr_indels.png', sep = '')
 tech_specific_length(df %>% filter(SUPP_VEC == 010), "CLR Only", outfile, TRUE)
 
 # ONT-unique variants
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_ont.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_ont.png', sep = '')
 tech_specific(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_ont_indels.png'
-tech_specific_length(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
-
-# ONT-unique variants
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_ont.png'
-tech_specific(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_ont_indels.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_ont_indels.png', sep = '')
 tech_specific_length(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
 
 # Concordant variants
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_agree.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_agree.png', sep = '')
 tech_specific(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE)
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_agree_indels.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_agree_indels.png', sep = '')
 tech_specific_length(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE)
 
 
@@ -178,7 +175,7 @@ pb_hifi <- nrow(df %>% filter(SUPP_VEC == 110))
 ont_hifi <- nrow(df %>% filter(SUPP_VEC == 101))
 allthree <- nrow(df %>% filter(SUPP_VEC == 111))
 
-outfile <- '/home/mkirsche/jasmine_data/figures/figure3/hg002_crosstech_venn.png'
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_venn.png', sep = '')
 Cairo(600, 600, file = outfile, type = "png", bg = "white")
 grid.newpage()
 venn.plot <- draw.triple.venn(area1           = pb_only + pb_ont + pb_hifi + allthree,
