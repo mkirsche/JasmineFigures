@@ -25,7 +25,6 @@ do
   outfile=$noext.fixed.vcf 
   echo $outfile >> $fixedlist
   java -cp $BINDIR AddStrandBiasHeader $filename $outfile
-
 done
 
 $BINDIR/SvPopulationAnalysis/runmerging.sh $fixedlist $prefix $discsuppvec
