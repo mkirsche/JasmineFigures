@@ -1,3 +1,6 @@
 [submodule "figures/figure2/SvPopulationAnalysis"]
 	path = figures/figure2/SvPopulationAnalysis
 	url = https://github.com/mkirsche/SvPopulationAnalysis.git
+[submodule "Jasmine"]
+	path = Jasmine
+	url = https://github.com/mkirsche/Jasmine.git
