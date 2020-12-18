@@ -6,7 +6,8 @@ fi
 
 MAX_DIST=50
 ALIGNER=ngmlr
-JASMINEEVALSRCPATH='/home/mkirsche/git/JasmineResults/src'
+JASMINEPATH=$BINDIR'/../../Jasmine'
+SRCPATH=$BINDIR'/../../src'
 
 hifi_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/hifi/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
 hifi_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/hifi/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
@@ -33,13 +34,13 @@ echo $ont_mother_vcf >> $filelist
 
 mergedvcf=$BINDIR/$prefix.merged.vcf
 
-/home/mkirsche/eclipse-workspace/Jasmine/jasmine file_list=$filelist out_file=$mergedvcf 
-/home/mkirsche/eclipse-workspace/Jasmine/jasmine --dup_to_ins --postprocess_only out_file=$mergedvcf 
+$JASMINEPATH/jasmine file_list=$filelist out_file=$mergedvcf 
+$JASMINEPATH/jasmine --dup_to_ins --postprocess_only out_file=$mergedvcf 
 
 echo 'Merged VCF: '$mergedvcf
 
 mergedtsv=$BINDIR/$prefix.merged.tsv
-java -cp $JASMINEEVALSRCPATH VcfToTsv $mergedvcf $mergedtsv
+java -cp $SRCPATH VcfToTsv $mergedvcf $mergedtsv
 
 Rscript $BINDIR/../jasmine_plot/find_denovo_candidates.R
 

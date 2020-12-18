@@ -1,13 +1,11 @@
 BINDIR=$(dirname "$(readlink -f "$0" || echo "$(echo "$0" | sed -e 's,\\,/,g')")")
-SURVIVOR_PATH='/home/mkirsche/git/SURVIVOR'
-JASMINEEVALSRCPATH='/home/mkirsche/git/JasmineResults/src'
-TABLESRCPATH='/home/mkirsche/eclipse-workspace/SvPopulationAnalysis/src'
+SURVIVOR_PATH=$BINDIR'/../../SURVIVOR'
+SRCPATH=$BINDIR'/../../src'
+TABLESRCPATH=$BINDIR'/../figure2/SvPopulationAnalysis/src'
+JASMINEPATH=$BINDIR'/../../Jasmine'
 OUTPREFIX='population'
-FILELIST=$BINDIR/$OUTPREFIX.filelist.txt
 
-javac $JASMINEEVALSRCPATH/ShuffleFile.java
-javac $JASMINEEVALSRCPATH/VcfToTsv.java
-
+FILELIST=$BINDIR'/'$OUTPREFIX'.filelist.txt'
 tablefile=$BINDIR/$OUTPREFIX.counts.txt
 
 echo ITERATION$'\t'COUNT$'\t'MERGER > $tablefile
@@ -24,7 +22,7 @@ do
 
  NEWFILELIST=$SHUFFLEDIR/$OUTPREFIX'_'$i.filelist.txt
  
- java -cp $JASMINEEVALSRCPATH ShuffleFile in_file=$FILELIST out_file=$NEWFILELIST seed=$i
+ java -cp $SRCPATH ShuffleFile in_file=$FILELIST out_file=$NEWFILELIST seed=$i
  
  survivorvcf=$SHUFFLEDIR/$OUTPREFIX'_'$i.survivor.vcf
  $SURVIVOR_PATH/Debug/SURVIVOR merge $NEWFILELIST 1000 1 1 1 0 1 $survivorvcf
@@ -32,12 +30,12 @@ do
  # Build merging table from SURVIVOR
  echo 'Building SURVIVOR merging table'
  survivorsmalltsv=$SHUFFLEDIR/$OUTPREFIX'_'$i.survivor_small.tsv
- java -cp /home/mkirsche/eclipse-workspace/Jasmine/src:$TABLESRCPATH BuildMergingTable vcf_file=$survivorvcf out_file=$survivorsmalltsv vcf_filelist=$NEWFILELIST mode=survivor
+ java -cp $JASMINEPATH/src:$TABLESRCPATH BuildMergingTable vcf_file=$survivorvcf out_file=$survivorsmalltsv vcf_filelist=$NEWFILELIST mode=survivor
  
  # Add INFO annotations to SURVIVOR merging table
  echo 'Annotating SURVIVOR merging table'
  survivortsv=$SHUFFLEDIR/$OUTPREFIX'_'$i.survivor.tsv
- java -cp /home/mkirsche/eclipse-workspace/Jasmine/src:$TABLESRCPATH AugmentMergingTable table_file=$survivorsmalltsv out_file=$survivortsv vcf_filelist=$NEWFILELIST
+ java -cp $JASMINEPATH/src:$TABLESRCPATH AugmentMergingTable table_file=$survivorsmalltsv out_file=$survivortsv vcf_filelist=$NEWFILELIST
  
  survivorcount=`cat $survivortsv | awk -v cols='SPECIFIC_FLAG,PRECISE_FLAG' 'BEGIN {
    FS=OFS="\t"
@@ -64,17 +62,17 @@ NR==1 {
  # Run Jasmine
  echo 'Running Jasmine'
  jasminevcf=$SHUFFLEDIR/$OUTPREFIX'_'$i.jasmine.vcf
- ~/eclipse-workspace/Jasmine/jasmine file_list=$NEWFILELIST out_file=$jasminevcf
+ $JASMINEPATH/jasmine file_list=$NEWFILELIST out_file=$jasminevcf
 
  # Build merging table from Jasmine
  echo 'Building Jasmine merging table'
  jasminesmalltsv=$SHUFFLEDIR/$OUTPREFIX'_'$i.jasmine_small.tsv
- java -cp /home/mkirsche/eclipse-workspace/Jasmine/src:$TABLESRCPATH BuildMergingTable vcf_file=$jasminevcf out_file=$jasminesmalltsv vcf_filelist=$NEWFILELIST
+ java -cp $JASMINEPATH/src:$TABLESRCPATH BuildMergingTable vcf_file=$jasminevcf out_file=$jasminesmalltsv vcf_filelist=$NEWFILELIST
  
  # Add INFO annotations to Jasmine merging table
  echo 'Annotating Jasmine merging table'
  jasminetsv=$SHUFFLEDIR/$OUTPREFIX'_'$i.jasmine.tsv
- java -cp /home/mkirsche/eclipse-workspace/Jasmine/src:$TABLESRCPATH AugmentMergingTable table_file=$jasminesmalltsv out_file=$jasminetsv vcf_filelist=$NEWFILELIST
+ java -cp $JASMINEPATH/src:$TABLESRCPATH AugmentMergingTable table_file=$jasminesmalltsv out_file=$jasminetsv vcf_filelist=$NEWFILELIST
  
  jasminecount=`cat $jasminetsv | awk -v cols='SPECIFIC_FLAG,PRECISE_FLAG' 'BEGIN {
    FS=OFS="\t"

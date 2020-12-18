@@ -4,3 +4,6 @@
 [submodule "Jasmine"]
 	path = Jasmine
 	url = https://github.com/mkirsche/Jasmine.git
+[submodule "SURVIVOR"]
+	path = SURVIVOR
+	url = git@github.com:fritzsedlazeck/SURVIVOR.git
