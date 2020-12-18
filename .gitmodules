@@ -1,0 +1,3 @@
+[submodule "figures/figure2/SvPopulationAnalysis"]
+	path = figures/figure2/SvPopulationAnalysis
+	url = https://github.com/mkirsche/SvPopulationAnalysis.git
