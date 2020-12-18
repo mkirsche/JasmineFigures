@@ -8,6 +8,7 @@ library(rlist)
 library(VennDiagram)
 library(Cairo)
 library(ggpubr)
+library(here)
 
 plot_table <- function(fn, outdir, prefix, caller, discvec){
   
@@ -217,10 +218,6 @@ plotdisc <- function(outdir, indir, wildcard) {
   md_data$DiscordanceRate = md_data$Discordant / md_data$Total
   
   filterpref = ""
-  if(filter_region)
-  {
-    filterpref = "hiconf"
-  }
   
   discordantplot <- ggplot(data = md_data, aes(x = md, y = Discordant)) +
     geom_point(size = 1.6) +
@@ -251,15 +248,16 @@ plotdisc <- function(outdir, indir, wildcard) {
   
 }
 
+projectroot <- here()
 wildcard <- "jasmine_md*.merged.tsv"
-indir <- "/home/mkirsche/jasmine_data/figures/figure2/"
+indir <- paste(projectroot, "/figures/figure2/", sep = '')
 outdir <- indir
 plotdisc(outdir, indir, wildcard)
 
-infile <- "/home/mkirsche/jasmine_data/figures/figure2/jasmine_md50.merged.tsv"
-outfile <- "/home/mkirsche/jasmine_data/figures/figure2/suppvechist.png"
+infile <- paste(projectroot, "/figures/figure2/jasmine_md50.merged.tsv", sep = '')
+outfile <- paste(projectroot, "/figures/figure2/suppvechist.png", sep = '')
 df <- read.table(infile, sep = "\t", header = TRUE)
 suppvec_hist(df, "Jasmine", outfile, TRUE)
 
-outfile <- "/home/mkirsche/jasmine_data/figures/figure2/indels.png"
+outfile <- paste(projectroot, "/figures/figure2/indels.png", sep = '')
 plot_length(df, "Hifi", outfile, TRUE)
