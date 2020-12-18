@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1604004131911.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C218EDD5",
+    "lastKnownWriteTime" : 1605556473,
+    "last_content_update" : 1605556473376,
+    "path" : "~/jasmine_data/figures/jasmine_plot/crosstech.R",
+    "project_path" : "crosstech.R",
+    "properties" : {
+        "cursorPosition" : "8,14",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

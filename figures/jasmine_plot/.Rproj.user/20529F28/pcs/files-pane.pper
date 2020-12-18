@@ -1,0 +1,9 @@
+{
+    "path" : "~/jasmine_data/figures/jasmine_plot",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

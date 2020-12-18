@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605556671758.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3236890654",
+    "id" : "A18ADE66",
+    "lastKnownWriteTime" : 1605557094,
+    "last_content_update" : 1605557169885,
+    "path" : "~/jasmine_data/figures/jasmine_plot/hg002_improvements.R",
+    "project_path" : "hg002_improvements.R",
+    "properties" : {
+        "cursorPosition" : "93,54",
+        "scrollLine" : "92",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
