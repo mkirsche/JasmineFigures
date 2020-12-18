@@ -2,3 +2,4 @@
 *.tsv
 *.class
 *.txt
+figures/jasmine_plot/.R*
