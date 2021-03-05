@@ -4,7 +4,13 @@ else
     BINDIR=$(dirname "$(readlink "$0" || echo "$(echo "$0" | sed -e 's,\\,/,g')")")
 fi
 
-filelist=$BINDIR/jasmine_md50.filelist.txt
+filelist=$BINDIR/crosstool.filelist.txt
+sonfile=`ls $BINDIR/../../schatz_pipeline/ash_trio/hg002/hifi/winnowmap/*vGRCh38_wm_50md_PBCCS_sniffles.s2l20.refined.nSVtypes.ism.vcf`
+fatherfile=`ls $BINDIR/../../schatz_pipeline/ash_trio/hg003/hifi/winnowmap/*vGRCh38_wm_50md_PBCCS_sniffles.s2l20.refined.nSVtypes.ism.vcf`
+motherfile=`ls $BINDIR/../../schatz_pipeline/ash_trio/hg004/hifi/winnowmap/*vGRCh38_wm_50md_PBCCS_sniffles.s2l20.refined.nSVtypes.ism.vcf`
+echo $sonfile > $filelist
+echo $fatherfile >> $filelist
+echo $motherfile >> $filelist
 prefix='hg002_hifi'
 discsuppvec='100'
 
@@ -29,6 +35,6 @@ done
 
 $BINDIR/SvPopulationAnalysis/runmerging.sh $fixedlist $prefix $discsuppvec
 
-
+$BINDIR/SvPopulationAnalysis/run_svpop/run_svpop.sh $fixedlist $prefix $discsuppvec
 
 

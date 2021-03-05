@@ -1,5 +1,5 @@
 BINDIR=$(dirname "$(readlink -f "$0" || echo "$(echo "$0" | sed -e 's,\\,/,g')")")
-ALIGNER='ngmlr'
+ALIGNER='winnowmap'
 JASMINEPATH=$BINDIR'/../../Jasmine'
 SRCPATH=$BINDIR'/../../src'
 
