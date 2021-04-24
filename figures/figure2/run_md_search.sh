@@ -25,7 +25,7 @@ do
     
     mergedvcf=$BINDIR/$prefix.merged.vcf
 
-    $JASMINEPATH/jasmine file_list=$filelist out_file=$mergedvcf 
+    $JASMINEPATH/jasmine file_list=$filelist out_file=$mergedvcf max_dist_linear=0.5 min_dist=100
     $JASMINEPATH/jasmine --dup_to_ins --postprocess_only out_file=$mergedvcf 
     
     echo 'Merged VCF: '$mergedvcf

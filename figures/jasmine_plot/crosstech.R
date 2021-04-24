@@ -9,44 +9,47 @@ library(VennDiagram)
 library(Cairo)
 library(here)
 
-suppvec_hist <- function(df, caller, outfile, filter) {
+suppvec_hist <- function(df, caller, outfile, filter, legendx, legendy) {
   if (filter)
   {
     df <- df %>% filter(IS_SPECIFIC == 1 & IS_PRECISE == 1)
   }
+  colorpalette <- c(DEL = '#CC6677',DUP = '#332288',INS = '#44AA99',TRA = '#88CCEE',INV = '#DDCC77')
+  
   df$SUPP_VEC_STRING <- str_pad(as.character(df$SUPP_VEC), 3, "left", "0")
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "100", "Hifi Only", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "100", "HiFi Only", df$SUPP_VEC_STRING)
   df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "010", "CLR Only", df$SUPP_VEC_STRING)
   df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "001", "ONT Only", df$SUPP_VEC_STRING)
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "110", "Hifi/CLR", df$SUPP_VEC_STRING)
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "101", "Hifi/ONT", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "110", "HiFi/CLR", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "101", "HiFi/ONT", df$SUPP_VEC_STRING)
   df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "011", "CLR/ONT", df$SUPP_VEC_STRING)
   df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "111", "All three", df$SUPP_VEC_STRING)
   
   suppveccounts <- df %>% count(SUPP_VEC_STRING)
   suppveccounts
   suppveccounts$SVTYPE = "INS"
-  ggplot(df, aes(x = SUPP_VEC_STRING, y = 1, fill = SVTYPE)) +
-    geom_bar(position = "stack", stat = "identity") +
-    labs(title = paste("SVs by Sequencing Technology (", caller, ")", sep = "")) +
+  ggplot(df, aes(x = SUPP_VEC_STRING, fill = SVTYPE)) +
+    geom_bar(position = "stack", stat = "count") +
+    labs(title = paste("SVs by Sequencing Technology", sep = "")) +
     xlab("Technologies") +
     ylab("Count") +
     scale_y_continuous(expand = expansion(mult = c(0, .1))) +
-    theme(plot.title = element_text(size = 18, hjust = 0.5),
-          axis.text.x = element_text(size = 12, angle = 30, margin = margin(t = 15)),
-          axis.text.y = element_text(size = 12),
-          axis.title.x = element_text(size = 16),
-          axis.title.y = element_text(size = 16),
-          legend.text = element_text(size = 12),
-          legend.title = element_text(size = 16),
+    theme(axis.text.x = element_text(size = 16, angle = 30, margin = margin(t = 21)),
+          axis.text.y = element_text(size = 16),
+          axis.title.x = element_blank(),
+          axis.title.y = element_text(size = 20),
+          legend.text = element_text(size = 16),
+          legend.title = element_text(size = 20),
+          legend.position = c(legendx, legendy),
+          plot.title = element_text(size = 22, hjust = .5)
     ) +
-    scale_fill_discrete(name = "SVTYPE") +
+    scale_fill_manual(name = "SVTYPE", values = colorpalette) +
     geom_text(data = suppveccounts, aes(x = SUPP_VEC_STRING, y=n, label=n), position=position_dodge(width=0.9), vjust=-0.75)
   
   ggsave(outfile, width= 7, height = 8)
 }
 
-tech_specific <- function(df, caller, outfile, filter) {
+tech_specific <- function(df, caller, outfile, filter, legendx, legendy) {
   if (filter)
   {
     df <- df %>% filter(IS_SPECIFIC == 1 & IS_PRECISE == 1)
@@ -65,20 +68,21 @@ tech_specific <- function(df, caller, outfile, filter) {
           axis.title.y = element_text(size = 16),
           legend.text = element_text(size = 12),
           legend.title = element_text(size = 16),
+          legend.position = c(legendx, legendy),
     ) +
     geom_text(data = typecounts, aes(x = SVTYPE, y=n, label=n), position=position_dodge(width=0.9), vjust=-0.75)
   
     ggsave(outfile, width= 6, height = 8)
 }
 
-tech_specific_length <- function(df, caller, outfile, filter) 
+tech_specific_length <- function(df, caller, outfile, filter, sz) 
 {
   if (filter)
   {
     df <- df %>% filter(IS_SPECIFIC == 1 & IS_PRECISE == 1)
   }
   df$LenCategory = "TRA"
-  
+  colorpalette <- c(DEL = '#CC6677',DUP = '#332288',INS = '#44AA99',TRA = '#88CCEE',INV = '#DDCC77')
   df$ABSLEN = abs(df$SVLEN)
   
   df$LenCategory = ifelse(df$ABSLEN >= 0 & df$ABSLEN <= 50, "30-50", df$LenCategory)
@@ -106,27 +110,28 @@ tech_specific_length <- function(df, caller, outfile, filter)
   
   nondelcounts <- df %>% filter(df$SVTYPE != "DEL") %>% group_by(LenCategory) %>% count()
   nondelcounts$SVTYPE = "INS"
-  
-  ggplot(df) +
-        geom_bar(data = df %>% filter(SVTYPE != "DEL"), position = "stack", stat = "identity", aes(x = LenCategory, fill = SVTYPE, y = 1))+
-        geom_bar(data = df %>% filter(SVTYPE == "DEL"), position = "stack", stat = "identity", aes(x = LenCategory, fill = SVTYPE, y = -1))+
+  summarized <- df %>% group_by(SVTYPE, LenCategory) %>% summarise(counts=n())
+  ggplot(summarized) +
+        geom_bar(data = summarized %>% filter(SVTYPE != "DEL"), position = "stack", stat = "identity", aes(x = LenCategory, fill = SVTYPE, y = counts))+
+        geom_bar(data = summarized %>% filter(SVTYPE == "DEL"), position = "stack", stat = "identity", aes(x = LenCategory, fill = SVTYPE, y = -counts))+
         scale_x_discrete(labels=labellist) +
         xlab("Length") +
         ylab("Count") +
-        labs(title = paste("Indels by Length (", caller, ")")) +
-        theme(plot.title = element_text(size = 24, hjust = 0.5),
-              axis.text.x = element_text(size = 14),
-              axis.text.y = element_text(size = 14),
-              axis.title.x = element_text(size = 16),
-              axis.title.y = element_text(size = 16),
-              legend.text = element_text(size = 14),
-              legend.title = element_text(size = 16),
-              text = element_text(size = 16),
+        labs(title = paste(caller, " SV Size Distribution", sep = "")) +
+        theme(plot.title = element_text(size = sz + 6, hjust = 0.5),
+              axis.text.x = element_text(size = sz, angle = 30, margin = margin(t = 17, r = 0, b = 0, l = 0)),
+              axis.text.y = element_text(size = sz),
+              axis.title.x = element_text(size = sz + 2),
+              axis.title.y = element_text(size = sz + 2),
+              legend.text = element_text(size = sz),
+              legend.title = element_text(size = sz + 2),
+              text = element_text(size = sz + 2*(sz - 16)),
+              legend.position = "none",
         ) +
-        scale_fill_discrete(name = "Type") +
-        geom_text(data = nondelcounts, aes(x = LenCategory, y=n, label=n), position=position_dodge(width=0.9), vjust=-0.75) +
-        geom_text(data = delcounts, aes(x = LenCategory, y=-1*n, label=n), position=position_dodge(width=0.9), vjust=1.5)
-  
+        scale_fill_manual(name = "SVTYPE", values = colorpalette) +
+        geom_text(data = nondelcounts, aes(x = LenCategory, y=n, label=n), position=position_dodge(width=0.9), vjust=-0.5, size = (sz-4)*5/14) +
+        geom_text(data = delcounts, aes(x = LenCategory, y=-1*n, label=n), position=position_dodge(width=0.9), vjust=1.25, size = (sz-4)*5/14)
+
   ggsave(outfile, width= 12, height = 8)
 }
 
@@ -137,33 +142,43 @@ fn <- paste(projectroot, '/figures/figure3/hg002_crosstech.merged.tsv', sep = ''
 outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_suppvecs.png', sep = '')
 df <- read.table(fn, sep = "\t", header = TRUE)
 caller <- 'Jasmine CrossTech'
-suppvec_hist(df, "Jasmine CrossTech", outfile, FALSE)
+suppvec_hist(df, "Jasmine CrossTech", outfile, FALSE, .88, .85)
 outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_suppvecs_spec_prec.png', sep = '')
-suppvec_hist(df, "Jasmine CrossTech", outfile, TRUE)
+suppvec_hist(df, "Jasmine CrossTech", outfile, TRUE, .88, .85)
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_suppvecs_spec_prec.svg', sep = '')
+suppvec_hist(df, "Jasmine CrossTech", outfile, TRUE, .88, .85)
 
 # Hifi-unique variants
-outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_hifi.png', sep = '')
-tech_specific(df %>% filter(SUPP_VEC == 100), "Hifi Only", outfile, TRUE)
+#outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_hifi.png', sep = '')
+#tech_specific(df %>% filter(SUPP_VEC == 100), "Hifi Only", outfile, TRUE)
 outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_hifi_indels.png', sep = '')
-tech_specific_length(df %>% filter(SUPP_VEC == 100), "Hifi Only", outfile, TRUE)
+tech_specific_length(df %>% filter(SUPP_VEC == 100), "HiFi-Only", outfile, TRUE, 22)
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_hifi_indels.svg', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 100), "HiFi-Only", outfile, TRUE, 22)
 
 # CLR-unique variants
-outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_clr.png', sep = '')
-tech_specific(df %>% filter(SUPP_VEC == 010), "CLR Only", outfile, TRUE)
+#outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_clr.png', sep = '')
+#tech_specific(df %>% filter(SUPP_VEC == 010), "CLR Only", outfile, TRUE)
 outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_clr_indels.png', sep = '')
-tech_specific_length(df %>% filter(SUPP_VEC == 010), "CLR Only", outfile, TRUE)
+tech_specific_length(df %>% filter(SUPP_VEC == 010), "CLR-Only", outfile, TRUE, 22)
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_clr_indels.svg', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 010), "CLR-Only", outfile, TRUE, 22)
 
 # ONT-unique variants
-outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_ont.png', sep = '')
-tech_specific(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
+#outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_ont.png', sep = '')
+#tech_specific(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
 outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_ont_indels.png', sep = '')
-tech_specific_length(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
+tech_specific_length(df %>% filter(SUPP_VEC == 001), "ONT-Only", outfile, TRUE, 22)
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_ont_indels.svg', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 001), "ONT-Only", outfile, TRUE, 22)
 
 # Concordant variants
-outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_agree.png', sep = '')
-tech_specific(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE)
+#outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_agree.png', sep = '')
+#tech_specific(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE)
 outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_agree_indels.png', sep = '')
-tech_specific_length(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE)
+tech_specific_length(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE, 18)
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_agree_indels.svg', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE, 18)
 
 
 df <- df %>% filter(IS_SPECIFIC == 1 & IS_PRECISE == 1)
@@ -185,7 +200,94 @@ venn.plot <- draw.triple.venn(area1           = pb_only + pb_ont + pb_hifi + all
                               n23             = ont_hifi + allthree,
                               n13             = pb_hifi + allthree,
                               n123            = allthree,
-                              category        = c('CLR', 'ONT', 'Hifi'),
+                              category        = c('CLR', 'ONT', 'HiFi'),
+                              fill            = c('#DD3D2D', '#FEDA8B', '#C2D4EF'),
+                              #cat.col         = c('#DD3D2D', '#FEDA8B', '#C2D4EF'),#c('dodgerblue', 'seagreen3', 'orchid3'),
+                              cex             = 2,
+                              cat.cex         = 2,
+                              euler           = TRUE,
+                              scaled          = FALSE
+)
+dev.off()
+
+outfile <- paste(projectroot, '/figures/figure3/hg002_crosstech_venn.pdf', sep = '')
+pdf(outfile, useDingbats = FALSE, width = 6, height = 6)
+grid.newpage()
+venn.plot <- draw.triple.venn(area1           = pb_only + pb_ont + pb_hifi + allthree,
+                              area2           = ont_only + pb_ont + ont_hifi + allthree,
+                              area3           = hifi_only + pb_hifi + ont_hifi + allthree,
+                              n12             = pb_ont + allthree,
+                              n23             = ont_hifi + allthree,
+                              n13             = pb_hifi + allthree,
+                              n123            = allthree,
+                              category        = c('CLR', 'ONT', 'HiFi'),
+                              fill            = c('#DD3D2D', '#FEDA8B', '#C2D4EF'),
+                              #cat.col         = c('#DD3D2D', '#FEDA8B', '#C2D4EF'),#c('dodgerblue', 'seagreen3', 'orchid3'),
+                              cex             = 2,
+                              cat.cex         = 2,
+                              euler           = TRUE,
+                              scaled          = FALSE
+)
+dev.off()
+
+#ggsave(venn.plot, outfile, device = 'cairo_png')
+
+fn <- paste(projectroot, '/figures/figure3/hg002_crosstech.merged.tsv', sep = '')
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_suppvecs.png', sep = '')
+df <- read.table(fn, sep = "\t", header = TRUE)
+nrow(df)
+df <- df %>% filter(abs(SVLEN) > 50 | SVTYPE == 'TRA')
+nrow(df)
+caller <- 'Jasmine CrossTech'
+suppvec_hist(df, "Jasmine CrossTech", outfile, FALSE)
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_suppvecs_spec_prec.png', sep = '')
+suppvec_hist(df, "Jasmine CrossTech", outfile, TRUE)
+
+# Hifi-unique variants
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_hifi.png', sep = '')
+tech_specific(df %>% filter(SUPP_VEC == 100), "HiFi-Only", outfile, TRUE)
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_hifi_indels.png', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 100), "HiFi Only", outfile, TRUE)
+
+# CLR-unique variants
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_clr.png', sep = '')
+tech_specific(df %>% filter(SUPP_VEC == 010), "CLR-Only", outfile, TRUE)
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_clr_indels.png', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 010), "CLR Only", outfile, TRUE)
+
+# ONT-unique variants
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_ont.png', sep = '')
+tech_specific(df %>% filter(SUPP_VEC == 001), "ONT-Only", outfile, TRUE)
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_ont_indels.png', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 001), "ONT Only", outfile, TRUE)
+
+# Concordant variants
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_agree.png', sep = '')
+tech_specific(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE)
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_agree_indels.png', sep = '')
+tech_specific_length(df %>% filter(SUPP_VEC == 111), "Concordant", outfile, TRUE)
+
+
+df <- df %>% filter(IS_SPECIFIC == 1 & IS_PRECISE == 1)
+pb_only <- nrow(df %>% filter(SUPP_VEC == 010))
+ont_only <- nrow(df %>% filter(SUPP_VEC == 001))
+hifi_only <- nrow(df %>% filter(SUPP_VEC == 100))
+pb_ont <- nrow(df %>% filter(SUPP_VEC == 011))
+pb_hifi <- nrow(df %>% filter(SUPP_VEC == 110))
+ont_hifi <- nrow(df %>% filter(SUPP_VEC == 101))
+allthree <- nrow(df %>% filter(SUPP_VEC == 111))
+
+outfile <- paste(projectroot, '/figures/figure3/long_hg002_crosstech_venn.png', sep = '')
+Cairo(600, 600, file = outfile, type = "png", bg = "white")
+grid.newpage()
+venn.plot <- draw.triple.venn(area1           = pb_only + pb_ont + pb_hifi + allthree,
+                              area2           = ont_only + pb_ont + ont_hifi + allthree,
+                              area3           = hifi_only + pb_hifi + ont_hifi + allthree,
+                              n12             = pb_ont + allthree,
+                              n23             = ont_hifi + allthree,
+                              n13             = pb_hifi + allthree,
+                              n123            = allthree,
+                              category        = c('CLR', 'ONT', 'HiFi'),
                               fill            = c('dodgerblue', 'seagreen3', 'orchid3'),
                               cat.col         = c('dodgerblue', 'seagreen3', 'orchid3'),
                               cex             = 2,

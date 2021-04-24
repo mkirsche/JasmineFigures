@@ -35,6 +35,6 @@ done
 
 $BINDIR/SvPopulationAnalysis/runmerging.sh $fixedlist $prefix $discsuppvec
 
-$BINDIR/SvPopulationAnalysis/run_svpop/run_svpop.sh $fixedlist $prefix $discsuppvec
+#$BINDIR/SvPopulationAnalysis/run_svpop/run_svpop.sh $fixedlist $prefix $discsuppvec
 
 

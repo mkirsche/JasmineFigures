@@ -5,19 +5,29 @@ else
 fi
 
 MAX_DIST=50
-ALIGNER=ngmlr
+ALIGNER=winnowmap
 JASMINEPATH=$BINDIR'/../../Jasmine'
 SRCPATH=$BINDIR'/../../src'
 
 hifi_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/hifi/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
 hifi_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/hifi/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
 hifi_mother_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg004/hifi/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
-clr_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/pb/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
+clr_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/pb/'$ALIGNER'/HG002v'*'_'$MAX_DIST'md_'*ism.vcf`
 clr_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/pb/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
 clr_mother_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg004/pb/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
-ont_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/ont/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
-ont_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/ont/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
-ont_mother_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg004/ont/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
+#ont_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/ont/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
+#ont_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/ont/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
+#ont_mother_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg004/ont/'$ALIGNER'/'*'_'$MAX_DIST'md_'*ism.vcf`
+
+#hifi_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/hifi/'$ALIGNER'/'*ism.vcf`
+#hifi_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/hifi/'$ALIGNER'/'*ism.vcf`
+#hifi_mother_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg004/hifi/'$ALIGNER'/'*ism.vcf`
+#clr_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/pb/'$ALIGNER'/'*ism.vcf`
+#clr_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/pb/'$ALIGNER'/'*ism.vcf`
+#clr_mother_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg004/pb/'$ALIGNER'/'*ism.vcf`
+ont_child_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg002/ont/'$ALIGNER'/'*wm_ONT*ism.vcf`
+ont_father_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg003/ont/'$ALIGNER'/'*wm_ONT*ism.vcf`
+ont_mother_vcf=`ls $BINDIR'/../../schatz_pipeline/ash_trio/hg004/ont/'$ALIGNER'/'*wm_ONT*ism.vcf`
 
 prefix=denovo
 
@@ -34,7 +44,7 @@ echo $ont_mother_vcf >> $filelist
 
 mergedvcf=$BINDIR/$prefix.merged.vcf
 
-$JASMINEPATH/jasmine file_list=$filelist out_file=$mergedvcf 
+$JASMINEPATH/jasmine file_list=$filelist out_file=$mergedvcf max_dist_linear=0.5 min_dist=100
 $JASMINEPATH/jasmine --dup_to_ins --postprocess_only out_file=$mergedvcf 
 
 echo 'Merged VCF: '$mergedvcf
