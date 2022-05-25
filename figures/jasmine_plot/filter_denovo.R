@@ -32,6 +32,10 @@ df$shp
 fontsize <- 20
 df$shp <- ifelse(df$POS == 23280711 & df$CHROM == 'chr14', 'square', df$shp)
 #df$shp <- "o"
+df$BreakpointVariance <- df$BREAKPOINT_STD*df$BREAKPOINT_STD
+df$LOGRE = log(df$RE, base = 2)
+ggplot(df, aes(x = ABS_LEN, y = LOGRE, color = as.character(DENOVO), size = BreakpointVariance)) + geom_point() + scale_color_manual(name = "De novo", values = c('#CC6677', 'darkgreen')) + xlab("Variant Length (log2)") + ylab("Read Support (log2)")
+ggsave(paste(indir, "denovoscatter.svg", sep = ''), width = 6, height = 6)
 
 fig <- plot_ly() %>% add_trace(df, x = df$RE, y = df$BREAKPOINT_STD, z = df$ABS_LEN, color = df$DENOVO, mode = "markers", colors = c('#CC6677', 'green'), marker = list(symbol = df$shp))
 fig <- fig %>% layout(

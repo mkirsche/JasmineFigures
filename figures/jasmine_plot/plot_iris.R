@@ -41,6 +41,8 @@ plot_iris_scores <- function(smallold, smallnew, mediumold, mediumnew, largeold,
   
   combineddf$Refined = factor(combineddf$Refined, levels = c("Unrefined Variant Calls", "Refined Variant Calls"))
   combineddf$Size = factor(combineddf$Size, levels = c("Small (50 - 200 bp)", "Medium (900 - 1100 bp)", "Large (4000 - 6000 bp)"))
+mean((combineddf %>% filter(Refined == "Unrefined Variant Calls"))$Score)
+mean((combineddf %>% filter(Refined == "Refined Variant Calls"))$Score)
 
   combinedplot <- ggplot(combineddf, aes(x = Score)) + geom_histogram(breaks = seq(0.75, 1.0, 0.01), color="black",fill="lightblue2") +
     xlab('Insertion Sequence Accuracy') +
@@ -91,7 +93,8 @@ largenew <- paste(indir, "/iris_sim_large.refined.scores.txt", sep = "")
 
 outfile <- "/home/mkirsche/jasmine_data/figures/supplement/iris/iris_sim_hist.png"
 plot_iris_scores(smallold, smallnew, mediumold, mediumnew, largeold, largenew, outfile)
-
+outfile <- "/home/mkirsche/jasmine_data/figures/supplement/iris/iris_sim_hist.svg"
+plot_iris_scores(smallold, smallnew, mediumold, mediumnew, largeold, largenew, outfile)
 
 refinedscores <- "/home/mkirsche/jasmine_data/figures/supplement/iris/hg002_refined_scores.txt"
 refined <- read.table(refinedscores, sep = '\t', header = TRUE)

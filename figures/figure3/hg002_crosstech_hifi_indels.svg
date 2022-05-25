@@ -153,6 +153,6 @@
 <text transform='translate(831.41,495.37) rotate(-30)' text-anchor='middle' style='font-size: 22.00px; fill: #4D4D4D; font-family: Arimo;' textLength='42.89px' lengthAdjust='spacingAndGlyphs'>TRA</text>
 <text x='472.04' y='565.53' text-anchor='middle' style='font-size: 24.00px; font-family: Arimo;' textLength='82.77px' lengthAdjust='spacingAndGlyphs'>Length</text>
 <text transform='translate(22.98,249.50) rotate(-90)' text-anchor='middle' style='font-size: 24.00px; font-family: Arimo;' textLength='71.26px' lengthAdjust='spacingAndGlyphs'>Count</text>
-<text x='472.04' y='25.89' text-anchor='middle' style='font-size: 28.00px; font-family: Arimo;' textLength='410.15px' lengthAdjust='spacingAndGlyphs'>HiFi-Only SV Size Distribution</text>
+<text x='472.04' y='25.89' text-anchor='middle' style='font-size: 28.00px; font-family: Arimo;' textLength='472.53px' lengthAdjust='spacingAndGlyphs'>HiFi-Only Variant Size Distribution</text>
 </g>
 </svg>

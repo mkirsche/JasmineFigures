@@ -156,28 +156,28 @@
 <text transform='translate(692.43,508.18) rotate(-30)' text-anchor='middle' style='font-size: 18.00px; fill: #4D4D4D; font-family: Arimo;' textLength='35.09px' lengthAdjust='spacingAndGlyphs'>TRA</text>
 <text x='399.36' y='566.36' text-anchor='middle' style='font-size: 20.00px; font-family: Arimo;' textLength='68.99px' lengthAdjust='spacingAndGlyphs'>Length</text>
 <text transform='translate(20.06,255.29) rotate(-90)' text-anchor='middle' style='font-size: 20.00px; font-family: Arimo;' textLength='59.41px' lengthAdjust='spacingAndGlyphs'>Count</text>
-<rect x='620.86' y='36.97' width='86.47' height='126.06' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='626.34' y='59.11' style='font-size: 20.00px; font-family: Arimo;' textLength='75.51px' lengthAdjust='spacingAndGlyphs'>SVTYPE</text>
-<rect x='626.34' y='71.15' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
-<rect x='627.05' y='71.86' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;' />
-<rect x='627.05' y='71.86' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;' />
-<rect x='626.34' y='88.43' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
-<rect x='627.05' y='89.14' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;' />
-<rect x='627.05' y='89.14' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;' />
-<rect x='626.34' y='105.71' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
-<rect x='627.05' y='106.42' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;' />
-<rect x='627.05' y='106.42' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;' />
-<rect x='626.34' y='122.99' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
-<rect x='627.05' y='123.70' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;' />
-<rect x='627.05' y='123.70' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;' />
-<rect x='626.34' y='140.27' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
-<rect x='627.05' y='140.98' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #88CCEE;' />
-<rect x='627.05' y='140.98' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #88CCEE;' />
-<text x='653.58' y='86.35' style='font-size: 18.00px; font-family: Arimo;' textLength='35.27px' lengthAdjust='spacingAndGlyphs'>DEL</text>
-<text x='653.58' y='103.63' style='font-size: 18.00px; font-family: Arimo;' textLength='37.89px' lengthAdjust='spacingAndGlyphs'>DUP</text>
-<text x='653.58' y='120.91' style='font-size: 18.00px; font-family: Arimo;' textLength='30.20px' lengthAdjust='spacingAndGlyphs'>INS</text>
-<text x='653.58' y='138.19' style='font-size: 18.00px; font-family: Arimo;' textLength='31.08px' lengthAdjust='spacingAndGlyphs'>INV</text>
-<text x='653.58' y='155.47' style='font-size: 18.00px; font-family: Arimo;' textLength='35.09px' lengthAdjust='spacingAndGlyphs'>TRA</text>
-<text x='399.36' y='22.98' text-anchor='middle' style='font-size: 24.00px; font-family: Arimo;' textLength='446.88px' lengthAdjust='spacingAndGlyphs'>HG002 SV Size Distribution (Jasmine)</text>
+<rect x='626.05' y='36.97' width='76.10' height='126.06' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='631.53' y='59.11' style='font-size: 20.00px; font-family: Arimo;' textLength='45.94px' lengthAdjust='spacingAndGlyphs'>Type</text>
+<rect x='631.53' y='71.15' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
+<rect x='632.24' y='71.86' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;' />
+<rect x='632.24' y='71.86' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;' />
+<rect x='631.53' y='88.43' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
+<rect x='632.24' y='89.14' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;' />
+<rect x='632.24' y='89.14' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;' />
+<rect x='631.53' y='105.71' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
+<rect x='632.24' y='106.42' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;' />
+<rect x='632.24' y='106.42' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;' />
+<rect x='631.53' y='122.99' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
+<rect x='632.24' y='123.70' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;' />
+<rect x='632.24' y='123.70' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;' />
+<rect x='631.53' y='140.27' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #F2F2F2;' />
+<rect x='632.24' y='140.98' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #88CCEE;' />
+<rect x='632.24' y='140.98' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #88CCEE;' />
+<text x='658.77' y='86.35' style='font-size: 18.00px; font-family: Arimo;' textLength='35.27px' lengthAdjust='spacingAndGlyphs'>DEL</text>
+<text x='658.77' y='103.63' style='font-size: 18.00px; font-family: Arimo;' textLength='37.89px' lengthAdjust='spacingAndGlyphs'>DUP</text>
+<text x='658.77' y='120.91' style='font-size: 18.00px; font-family: Arimo;' textLength='30.20px' lengthAdjust='spacingAndGlyphs'>INS</text>
+<text x='658.77' y='138.19' style='font-size: 18.00px; font-family: Arimo;' textLength='31.08px' lengthAdjust='spacingAndGlyphs'>INV</text>
+<text x='658.77' y='155.47' style='font-size: 18.00px; font-family: Arimo;' textLength='35.09px' lengthAdjust='spacingAndGlyphs'>TRA</text>
+<text x='399.36' y='22.98' text-anchor='middle' style='font-size: 24.00px; font-family: Arimo;' textLength='550.30px' lengthAdjust='spacingAndGlyphs'>HG002 Trio Variant Size Distribution (Jasmine)</text>
 </g>
 </svg>

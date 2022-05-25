@@ -24,7 +24,7 @@ plot_allele_frequencies <- function(variants, outfile) {
     xlab("Allele Frequency") +
     ylab("Number of variants") +
     
-    ggsave(outfile, device = "png", height = 8, width = 8)
+    ggsave(outfile, height = 8, width = 8)
 }
 
 jasminefile <- "/home/mkirsche/eclipse-workspace/AlleleFrequencyInvestigation/jasmine_svpopanno.tsv"
@@ -100,19 +100,25 @@ df$AF_NUM <- factor(df$AF_NUM, levels = sorted_labels)
 #df <- merge(df, samples, by = SAMPLE)
 for (x in unique(df$SAMPLE)) {
   print(x)
-  ggplot(df %>% filter(SAMPLE == x), aes(x = RE_NUM, y = 1, fill = AF_NUM)) + geom_bar(position = "stack", stat = "identity") +
+  summarized <- df %>% filter(SAMPLE == x) %>% group_by(RE_NUM, AF_NUM) %>% summarise(counts=n())
+  summarized$SAMPLE = x
+  ggplot(summarized, aes(x = RE_NUM, y = counts, fill = AF_NUM)) + geom_bar(position = "stack", stat = "identity") +
     facet_grid(~SAMPLE) +
-    theme(axis.text.x = element_text(size = 8),
-          axis.text.y = element_text(size = 8),
+    theme(axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12),
           axis.title.x = element_text(size = 18),
           axis.title.y = element_text(size = 18),
-          #legend.title = element_blank(),
-          #legend.text = element_blank(),
-          #legend.position = "none",
+          legend.title = element_text(size = 14),
+          legend.text = element_text(size = 12),
+          strip.text.x = element_text(size = 18),
+          strip.text.y = element_text(size = 18),
+          legend.position = c(.9, .8),
           plot.title = element_text(hjust = 0.5, size = 20)) +
     xlab("Read Support") +
+    scale_fill_discrete(name = "Allele Frequency")+
     ylab("Number of variants")
-  ggsave(paste("/home/mkirsche/jasmine_data/figures/figure5/jasmine_population_re_af_" , x, "_.png" , sep = ""), device = "png", height = 12, width = 12)  
+  ggsave(paste("/home/mkirsche/jasmine_data/figures/figure5/jasmine_population_re_af_" , x, "_.png" , sep = ""), height = 12, width = 12)  
+  ggsave(paste("/home/mkirsche/jasmine_data/figures/figure5/jasmine_population_re_af_" , x, "_.svg" , sep = ""), height = 12, width = 12)  
 }
 
 ggplot(df, aes(x = RE_NUM, y = 1, fill = AF_NUM)) + geom_bar(position = "stack", stat = "identity") +

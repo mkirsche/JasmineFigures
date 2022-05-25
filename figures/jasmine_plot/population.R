@@ -7,7 +7,42 @@ library(gridExtra)
 library(rlist)
 library(svglite)
 
+
+plot_length_line <- function(df, outfile, legendx, legendy) 
+{
+  df$ABSLEN = abs(as.numeric(df$SVLEN))
+  
+  colorpalette <- c(DEL = '#CC6677',DUP = '#332288',INS = '#44AA99',TRA = '#88CCEE',INV = '#DDCC77')
+  
+  #summarized <- df %>% group_by(SVTYPE) %>% summarise(counts=n())
+  
+  ggplot(df%>% filter(ABSLEN <=10000 & ABSLEN >= 100), aes(x = ABSLEN, color = SVTYPE)) +
+    geom_density()+
+    xlab("Length") +
+    ylab("Density") +
+    theme(plot.title = element_text(size = 24, hjust = 0.5),
+          axis.text.x = element_text(size = 18, angle = 30, margin = margin(t = 17, r = 0, b = 0, l = 0)),
+          axis.text.y = element_text(size = 18),
+          axis.title.x = element_text(size = 20),
+          axis.title.y = element_text(size = 20),
+          legend.text = element_text(size = 18),
+          legend.title = element_text(size = 20),
+          text = element_text(size = 20),
+          legend.position = c(legendx, legendy),
+    ) +
+    ggtitle('Cohort Variant Size Distribution (Jasmine)') +
+    #scale_fill_brewer(name = "Type", palette = "Set2") + 
+    scale_color_manual(name = "SVTYPE", values = colorpalette) +
+    guides(color=guide_legend(title="Type")) +
+  #geom_text(data = nondelcounts, aes(x = LenCategory, y=n, label=n), position=position_dodge(width=0.9), vjust=-0.75) +
+  #geom_text(data = delcounts, aes(x = LenCategory, y=-1*n, label=n), position=position_dodge(width=0.9), vjust=1.5)
+  
+  ggsave(outfile, width= 10, height = 8)
+}
+
 plot_variant_discovery <- function(variants, outfile) {
+  colorpalette <- c(SV = '#2093c3', Indel = '#BBCCEE')
+  
   variants$TRIMMED_SUPP_VEC = str_remove(variants$SUPP_VEC, "^0+")
   variants$SUPP_VEC_LENGTH <- nchar(variants$TRIMMED_SUPP_VEC)
   unique(variants$SUPP_VEC_LENGTH)
@@ -15,19 +50,30 @@ plot_variant_discovery <- function(variants, outfile) {
   maxlength
   variants$SAMPLE_DISCOVERED <- maxlength + 1 - variants$SUPP_VEC_LENGTH
   variants$SAMPLE_DISCOVERED
-  counts <- variants %>% count(SAMPLE_DISCOVERED)
-  counts <- counts %>% mutate(cumsum = cumsum(n))
-  counts
-  ggplot(counts, aes(x = SAMPLE_DISCOVERED, y = cumsum, fill = SAMPLE_DISCOVERED)) +
-    geom_bar(stat = "sum", fill = "#2093c3") +
+  
+  variants$LengthType = ifelse(variants$SVLEN >= 50 | variants$SVLEN <= -50 | variants$SVLEN == 0 | variants$SVTYPE == "TRA", "SV", "Indel")
+  svs <- variants %>% filter(LengthType == "SV")
+  indels <- variants %>% filter(LengthType == "Indel")
+  
+  sv_counts <- svs %>% count(SAMPLE_DISCOVERED, LengthType)
+  indel_counts <- indels %>% count(SAMPLE_DISCOVERED, LengthType)
+  
+  sv_counts <- sv_counts %>% mutate(cumsum = cumsum(n))
+  indel_counts <- indel_counts %>% mutate(cumsum = cumsum(n))
+  
+  counts <- rbind(sv_counts, indel_counts)
+  ggplot(counts, aes(x = SAMPLE_DISCOVERED, y = cumsum, fill = LengthType)) +
+    geom_bar(stat = "identity") + #, fill = "#2093c3") +
+    scale_fill_manual(name = "LengthType", values = colorpalette) +
+    
   ggtitle("Variant Discovery") +
     theme(axis.text.x = element_text(size = 16),
           axis.text.y = element_text(size = 16),
           axis.title.x = element_text(size = 20),
           axis.title.y = element_text(size = 20),
           legend.title = element_blank(),
-          legend.text = element_blank(),
-          legend.position = "none",
+          legend.text = element_text(size = 14),
+          legend.position = c(.16, .9),
           plot.title = element_text(hjust = 0.5, size = 24)) +
     xlab("Samples") +
     ylab("Variants Discovered")
@@ -35,20 +81,23 @@ plot_variant_discovery <- function(variants, outfile) {
 }
 
 plot_allele_frequencies <- function(variants, outfile) {
+  colorpalette <- c(SV = '#2093c3', Indel = '#BBCCEE')
+  variants$SVLEN <- as.numeric(variants$SVLEN)
+  variants$LengthType = ifelse(variants$SVLEN >= 50 | variants$SVLEN <= -50 | variants$SVLEN == 0 | variants$SVTYPE == "TRA", "SV", "Indel")
   variants$SUPP_INT = strtoi(variants$SUPP)
-  ggplot(variants, aes(x = SUPP_INT, fill = SUPP_INT)) +
-    geom_bar(position = "stack", stat = "count", fill = "#2093c3") +
+  ggplot(variants, aes(x = SUPP_INT, fill = LengthType)) +
+    geom_bar(position = "stack", stat = "count") +
+    scale_fill_manual(name = "LengthType", values = colorpalette) +
     ggtitle("Population Allele Frequencies") +
     theme(axis.text.x = element_text(size = 16),
           axis.text.y = element_text(size = 16),
           axis.title.x = element_text(size = 20),
           axis.title.y = element_text(size = 20),
           legend.title = element_blank(),
-          legend.text = element_blank(),
-          legend.position = "none",
+          legend.position = c(.9, .88),
           plot.title = element_text(hjust = 0.5, size = 24)) +
     xlab("Allele Frequency") +
-    ylab("Number of variants") +
+    ylab("Number of Variants") +
 
   ggsave(outfile, height = 8, width = 8)
 }
@@ -95,7 +144,7 @@ plot_length <- function(df, outfile, legendx, legendy)
     scale_x_discrete(labels=labellist) +
     xlab("Length") +
     ylab("Count") +
-    labs(title = "Population SV Size Distribution") +
+    labs(title = "Population Variant Size Distribution") +
     theme(plot.title = element_text(size = 24, hjust = 0.5),
           axis.text.x = element_text(size = 18, angle = 30, margin = margin(t = 17, r = 0, b = 0, l = 0)),
           axis.text.y = element_text(size = 18),
@@ -107,6 +156,7 @@ plot_length <- function(df, outfile, legendx, legendy)
           legend.position = c(legendx, legendy),
     ) +
     scale_fill_manual(name = "SVTYPE", values = colorpalette) +
+    guides(fill=guide_legend(title="Type")) +
     geom_text(data = nondelcounts, aes(x = LenCategory, y=n, label=n), position=position_dodge(width=0.9), vjust=-0.75) +
     geom_text(data = delcounts, aes(x = LenCategory, y=-1*n, label=n), position=position_dodge(width=0.9), vjust=1.5)
   
@@ -140,20 +190,23 @@ get_merges <- function(tablefile, merger) {
   df$endspan = df$MAX_END - df$MIN_END
   df$MaxRange = pmax(df$startspan, df$endspan)
   df$Range <- log(df$MaxRange + 1, base = 2)
+  df$Len <- df$LEN
   multi <- df %>% filter(NUMVARS > 1)
   sum(df$NUMVARS)
   nrow(df)
   nrow(multi)
   multi$Merger <- merger
-  
-  return(multi %>% select(Range, Merger))
+  multi$RangeProp <- 0
+  return(multi %>% select(Range, Merger, MaxRange, Len, RangeProp))
 }
 
 plot_range <- function(jasminefile, survivorfile, svtoolsfile, svimmerfile, svpopfile, dbsvmergefile, outfile) {
+  
   names = c("Range", "Merger")
   rangedf <- data.frame(setNames(rep(list(NA), length(names)), names))
   rangedf$Range = c()
   rangedf$Merger = c()
+  
 
   jasminedf <- get_merges(jasminefile, 'Jasmine')
   rangedf <- rbind(rangedf, jasminedf)
@@ -182,6 +235,50 @@ plot_range <- function(jasminefile, survivorfile, svtoolsfile, svimmerfile, svpo
   
   ggplot(rangedf, aes(x = Range, y = order, fill = Merger)) + geom_violin(draw_quantiles = c(.5), scale = "width") +
     xlab("Breakpoint Range (log2)") +
+    ylab("Merging software") + theme(legend.title = element_blank(), legend.position = "none", legend.text = element_blank(), axis.title.y = element_blank(), axis.text = element_text(size = 18), axis.title.x = element_text(size = 18))  +
+    scale_y_discrete(limits=c("1", "2", "3", "4", "5", "6"),labels=c("svtools", "svimmer", "SURVIVOR", "svpop", "dbsvmerge", "Jasmine")) +
+    scale_fill_manual(values = c(SURVIVOR = "#33bbee", svimmer = "#ee3377", svtools = "#ee7733", Jasmine = "#009988", svpop = "#cc3311", dbsvmerge = "#0077bb"))
+  ggsave(outfile, width= 8, height = 4)
+}
+
+plot_range_prop <- function(jasminefile, survivorfile, svtoolsfile, svimmerfile, svpopfile, dbsvmergefile, outfile) {
+  names = c("Range", "Merger", "MaxRange", "Len", "RangeProp")
+  rangedf <- data.frame(setNames(rep(list(NA), length(names)), names))
+  rangedf$Range = c()
+  rangedf$Merger = c()
+  rangedf$MaxRange = c()
+  rangedf$Len <- c()
+  rangedf$RangeProp <- c()
+
+  jasminedf <- get_merges(jasminefile, 'Jasmine')
+  rangedf <- rbind(rangedf, jasminedf)
+  
+  survivordf <- get_merges(survivorfile, 'SURVIVOR')
+  rangedf <- rbind(rangedf, survivordf)
+  
+  svtoolsdf <- get_merges(svtoolsfile, 'svtools')
+  rangedf <- rbind(rangedf, svtoolsdf)
+  
+  svimmerdf <- get_merges(svimmerfile, 'svimmer')
+  rangedf <- rbind(rangedf, svimmerdf)
+  
+  svpopdf <- get_merges(svpopfile, 'svpop')
+  rangedf <- rbind(rangedf, svpopdf)
+  
+  dbsvmergedf <- get_merges(dbsvmergefile, 'dbsvmerge')
+  rangedf <- rbind(rangedf, dbsvmergedf)
+  
+  rangedf$order <- "1"
+  rangedf$order <- ifelse(rangedf$Merger == "Jasmine", "6", rangedf$order)
+  rangedf$order <- ifelse(rangedf$Merger == "dbsvmerge", "5", rangedf$order)
+  rangedf$order <- ifelse(rangedf$Merger == "svpop", "4", rangedf$order)
+  rangedf$order <- ifelse(rangedf$Merger == "SURVIVOR", "3", rangedf$order)
+  rangedf$order <- ifelse(rangedf$Merger == "svimmer", "2", rangedf$order)
+  rangedf$RangeProp <- as.numeric(rangedf$Range / abs(rangedf$Len))
+  rangedf$RangePropLog <- ifelse(rangedf$RangeProp == 0, -30, log2(rangedf$RangeProp))
+  min(rangedf$RangePropLog)
+  ggplot(rangedf, aes(x = RangePropLog, y = order, fill = Merger)) + geom_violin(draw_quantiles = c(.5), scale = "width") +
+    xlab("Breakpoint Range / Length (log2)") +
     ylab("Merging software") + theme(legend.title = element_blank(), legend.position = "none", legend.text = element_blank(), axis.title.y = element_blank(), axis.text = element_text(size = 18), axis.title.x = element_text(size = 18))  +
     scale_y_discrete(limits=c("1", "2", "3", "4", "5", "6"),labels=c("svtools", "svimmer", "SURVIVOR", "svpop", "dbsvmerge", "Jasmine")) +
     scale_fill_manual(values = c(SURVIVOR = "#33bbee", svimmer = "#ee3377", svtools = "#ee7733", Jasmine = "#009988", svpop = "#cc3311", dbsvmerge = "#0077bb"))
@@ -293,12 +390,13 @@ plot_ism(indir, outfile)
 merged_table_file <- "/home/mkirsche/jasmine_data/figures/figure5/population_final_specprec.merged.tsv"
 variants = read.table(merged_table_file, comment.char = "#", sep = "\t", header = T, stringsAsFactors=FALSE, colClasses = 'character')
 variants <- variants %>% filter(IS_SPECIFIC == "1" & IS_PRECISE == "1")
-
+nrow(variants)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/variantdiscovery.png"
 plot_variant_discovery(variants, outfile)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/variantdiscovery.svg"
 plot_variant_discovery(variants, outfile)
-
+lengthfiltered <- variants %>% filter(as.numeric(SVLEN) == 0 | as.numeric(SVLEN) >= 50 | as.numeric(SVLEN) <= -50 | SVTYPE == "TRA")
+nrow(lengthfiltered)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/allelefreqs.png"
 plot_allele_frequencies(variants, outfile)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/allelefreqs.svg"
@@ -308,6 +406,11 @@ outfile <- "/home/mkirsche/jasmine_data/figures/figure5/variantlengths.png"
 plot_length(variants, outfile, .92, .84)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/variantlengths.svg"
 plot_length(variants, outfile, .92, .84)
+
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/variantlengths_line.png"
+plot_length_line(variants, outfile, .92, .84)
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/variantlengths_line.svg"
+plot_length_line(variants, outfile, .92, .84)
 
 counttablefile <- "/home/mkirsche/jasmine_data/figures/figure5/population.newcounts.txt"
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/shuffle_boxplot.png"
@@ -341,11 +444,13 @@ jasmine20_200lineardistfile <- "/home/mkirsche/jasmine_data/figures/figure5/line
 jasmine50_50lineardistfile <- "/home/mkirsche/jasmine_data/figures/figure5/lineardist50_50_specprec.txt"
 
 plot_range(jasminefile, survivorfile, svtoolsfile, svimmerfile, svpopfile, dbsvmergefile, outfile)
-outfile <- "/home/mkirsche/jasmine_data/figures/figure5/rangeplot.svg"
 
 plot_range(jasminefile, survivorfile, svtoolsfile, svimmerfile, svpopfile, dbsvmergefile, outfile)
 
-
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/rangeplot_prop.png"
+plot_range_prop(jasminefile, survivorfile, svtoolsfile, svimmerfile, svpopfile, dbsvmergefile, outfile)
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/rangeplot_prop.svg"
+plot_range_prop(jasminefile, survivorfile, svtoolsfile, svimmerfile, svpopfile, dbsvmergefile, outfile)
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/jasmineallelefreqs.png"
 variants = read.table(jasminefile, comment.char = "#", sep = "\t", header = T, stringsAsFactors=FALSE, colClasses = 'character')
@@ -453,7 +558,9 @@ mat <- get_pairwise(jasminefile)
 #mat_clr100 <- get_pairwise("/home/mkirsche/jasmine_data/figures/figure5/clr_100_specprec.txt")
 mat
 library(gplots)
-
+for(i in 1:31) {
+print(mat[i, i])
+}
 # Read in sample info
 fn <- "/home/mkirsche/jasmine_data/figures/figure5/filelist.txt"
 samples <- read.table(fn, sep = "\t", header = T, colClasses = 'character')
@@ -467,6 +574,9 @@ colnames(mat) <- samples$Label
 
 samples$COVERAGE_NUM <- as.numeric(samples$COVERAGE)
 samples$NUMVARS <- as.numeric(samples$NUMVARS)
+samples$NUMSVS <- as.numeric(samples$NUMSVS)
+samples$FULLNUMSVS <- as.numeric(samples$FULLNUMSVS)
+
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/numvars_singlesample.png"
 ggplot(samples, aes(x = COVERAGE_NUM, y = NUMVARS, label = SAMPLE, color = TECH)) + geom_point() + xlab("Coverage") + ylab("Number of Variants") +
@@ -480,6 +590,76 @@ ggplot(samples, aes(x = COVERAGE_NUM, y = NUMVARS, label = SAMPLE, color = TECH)
         #legend.position = "none"
   ) + geom_text(nudge_y = -400, size = 4) + guides(color=guide_legend(title="Tech"))
 ggsave(outfile, width = 12, height = 8)
+
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/numvars_singlesample.svg"
+ggplot(samples, aes(x = COVERAGE_NUM, y = NUMVARS, label = SAMPLE, color = TECH)) + geom_point() + xlab("Coverage") + ylab("Number of Variants") +
+  theme(plot.title = element_text(size = 24, hjust = 0.5),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        #legend.text = element_blank(),
+        text = element_text(size = 8),
+        #legend.position = "none"
+  ) + geom_text(nudge_y = -400, size = 4) + guides(color=guide_legend(title="Tech"))
+ggsave(outfile, width = 12, height = 8)
+
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/numsvs_singlesample.svg"
+ggplot(samples, aes(x = COVERAGE_NUM, y = NUMSVS, label = SAMPLE, color = TECH)) + geom_point() + xlab("Coverage") + ylab("Number of SVs") +
+  theme(plot.title = element_text(size = 24, hjust = 0.5),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        #legend.text = element_blank(),
+        text = element_text(size = 8),
+        #legend.position = "none"
+  ) + geom_text(nudge_y = -400, size = 4) + guides(color=guide_legend(title="Tech"))
+ggsave(outfile, width = 12, height = 8)
+
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/fullnumvars_singlesample.png"
+ggplot(samples, aes(x = COVERAGE_NUM, y = as.numeric(FULLNUMVARS), label = SAMPLE, color = TECH)) + geom_point(size = 4) + xlab("Coverage") + ylab("Number of Variants") +
+  theme(plot.title = element_text(size = 24, hjust = 0.5),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        #legend.text = element_blank(),
+        text = element_text(size = 8),
+        #legend.position = "none"
+  ) + #geom_text(nudge_y = -400, size = 4) + 
+  guides(color=guide_legend(title="Tech"))
+ggsave(outfile, width = 12, height = 8)
+
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/fullnumsvs_singlesample.svg"
+ggplot(samples, aes(x = COVERAGE_NUM, y = as.numeric(FULLNUMSVS), label = SAMPLE, color = TECH)) + geom_point(size = 4) + xlab("Coverage") + ylab("Number of SVs") +
+  theme(plot.title = element_text(size = 24, hjust = 0.5),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        #legend.text = element_blank(),
+        text = element_text(size = 8),
+        #legend.position = "none"
+  ) + #geom_text(nudge_y = -400, size = 4) + 
+  guides(color=guide_legend(title="Tech"))
+ggsave(outfile, width = 12, height = 8)
+
+outfile <- "/home/mkirsche/jasmine_data/figures/figure5/fullnumvars_singlesample.svg"
+ggplot(samples, aes(x = COVERAGE_NUM, y = as.numeric(FULLNUMVARS), label = SAMPLE, color = TECH)) + geom_point(size = 4) + xlab("Coverage") + ylab("Number of Variants") +
+  theme(plot.title = element_text(size = 24, hjust = 0.5),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        legend.text = element_text(size = 12),
+        legend.title = element_text(size = 12),
+        text = element_text(size = 8),
+        #legend.position = "none"
+  ) + #geom_text(nudge_y = -400, size = 4) +
+  guides(color=guide_legend(title="Tech"))
+ggsave(outfile, width = 12, height = 8)
+
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/numvars_singlesample_superpop.png"
 ggplot(samples, aes(x = COVERAGE_NUM, y = NUMVARS, label = SAMPLE, color = SUPERPOPULATION)) + geom_point() + xlab("Coverage") + ylab("Number of Variants") +
@@ -508,6 +688,7 @@ names(mat_colors$Superpopulation) <- unique(samples$SUPERPOPULATION)
 mat_colors
 mat_col <- data.frame(Superpopulation = samples$SUPERPOPULATION)
 rownames(mat_col) <- rownames(mat)
+
 mat_col
 outfile <- "/home/mkirsche/jasmine_data/figures/figure5/correlation_corrplot.png"
 png(file=outfile, width = 1024, height = 1024)
@@ -620,7 +801,7 @@ make_pca_scatter <- function(variants, pref, samples)
   colnames(samples)
   sampletally <- merge(sampletally, samples, by = "SAMPLE")
   sampletally$TECH
-  ggplot(sampletally, aes(x = SAMPLE, y = n, fill = TECH)) + geom_bar(stat = "identity") + xlab("Sample") + ylab("Number of Variants") +
+  ggplot(sampletally, aes(x = SAMPLE, y = COVERAGE_NUM, fill = TECH)) + geom_bar(stat = "identity") + xlab("Sample") + ylab("Coverage") +
     theme(plot.title = element_text(size = 24, hjust = 0.5),
           axis.text.x = element_text(size = 10, angle = 40),
           axis.text.y = element_text(size = 10),
@@ -629,7 +810,8 @@ make_pca_scatter <- function(variants, pref, samples)
           #legend.text = element_blank(),
           text = element_text(size = 16),
           #legend.position = "none"
-    ) + guides(fill=guide_legend(title="Tech"))
+    ) + guides(fill=guide_legend(title="Tech")) + facet_grid(cols=vars(SUPERPOPULATION), scales = "free_x", space="free_x")
+  #pref <- 'allvars'
   outfile <- paste("/home/mkirsche/jasmine_data/figures/figure5/", pref, "_", "samplecountsbar.png", sep = "")
   ggsave(outfile, width = 12, height = 8)
   sampletally

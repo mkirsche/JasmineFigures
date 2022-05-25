@@ -163,6 +163,6 @@
 <text transform='translate(829.89,508.18) rotate(-30)' text-anchor='middle' style='font-size: 18.00px; fill: #4D4D4D; font-family: Arimo;' textLength='35.09px' lengthAdjust='spacingAndGlyphs'>TRA</text>
 <text x='471.36' y='566.36' text-anchor='middle' style='font-size: 20.00px; font-family: Arimo;' textLength='68.99px' lengthAdjust='spacingAndGlyphs'>Length</text>
 <text transform='translate(20.06,255.29) rotate(-90)' text-anchor='middle' style='font-size: 20.00px; font-family: Arimo;' textLength='59.41px' lengthAdjust='spacingAndGlyphs'>Count</text>
-<text x='471.36' y='22.98' text-anchor='middle' style='font-size: 24.00px; font-family: Arimo;' textLength='382.30px' lengthAdjust='spacingAndGlyphs'>Concordant SV Size Distribution</text>
+<text x='471.36' y='22.98' text-anchor='middle' style='font-size: 24.00px; font-family: Arimo;' textLength='435.75px' lengthAdjust='spacingAndGlyphs'>Concordant Variant Size Distribution</text>
 </g>
 </svg>

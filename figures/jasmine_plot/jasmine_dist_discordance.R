@@ -9,6 +9,7 @@ library(VennDiagram)
 library(Cairo)
 library(ggpubr)
 library(here)
+library(svglite)
 
 plotdisc <- function(outdir, indir, wildcard) {
   paste(indir, wildcard, sep = "")
@@ -78,6 +79,9 @@ plotdisc <- function(outdir, indir, wildcard) {
   ggsave(outfile, device = "png", height = 8, width = 8)
   ggarrange(arrangeGrob(discordantplot, totalplot, discrateplot, ncol = 1)) %>% ggexport(filename = paste(outdir, filterpref, "distfullplot.png",sep = ""))
   
+  ggarrange(arrangeGrob(discordantplot, totalplot, discrateplot, ncol = 1))
+  ggsave(paste(outdir, filterpref, "distfullplot.svg", sep = ""), width = 8, height = 8)
+  
 }
 
 plotdiscmd <- function(outdir, indir, wildcard, tech) {
@@ -144,6 +148,8 @@ plotdiscmd <- function(outdir, indir, wildcard, tech) {
   ggsave(outfile, device = "png", height = 8, width = 8)
   ggarrange(arrangeGrob(discordantplot, totalplot, discrateplot, ncol = 1)) %>% ggexport(filename = paste(outdir, filterpref, tech, "mdfullplot.png",sep = ""))
   
+  ggarrange(arrangeGrob(discordantplot, totalplot, discrateplot, ncol = 1))
+  ggsave(paste(outdir, filterpref, tech, "mdfullplot.svg", sep = ""), width = 8, height = 8)
 }
 projectroot <- here()
 projectroot <- '/home/mkirsche/jasmine_data'

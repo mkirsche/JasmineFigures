@@ -1,0 +1,4768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="svglite"
+   width="1440.00pt"
+   height="1440.00pt"
+   viewBox="0 0 1440.00 1440.00"
+   version="1.1"
+   id="svg1567"
+   sodipodi:docname="hg002_hifi_jasmine_anno_suppvec.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata1571">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2416"
+     inkscape:window-height="1312"
+     id="namedview1569"
+     showgrid="false"
+     inkscape:zoom="0.49166667"
+     inkscape:cx="960"
+     inkscape:cy="960"
+     inkscape:window-x="144"
+     inkscape:window-y="197"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1567" />
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style2"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+  </defs>
+  <rect
+     width="100%"
+     height="100%"
+     style="stroke: none; fill: #FFFFFF;"
+     id="rect6" />
+  <defs
+     id="defs11">
+    <clipPath
+       id="cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==">
+      <rect
+         x="0.00"
+         y="0.00"
+         width="1440.00"
+         height="1440.00"
+         id="rect8" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g13" />
+  <defs
+     id="defs18">
+    <clipPath
+       id="cpMC4wMHw0ODAuMDB8MC4wMHw0ODAuMDA=">
+      <rect
+         x="0.00"
+         y="0.00"
+         width="480.00"
+         height="480.00"
+         id="rect15" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMC4wMHw0ODAuMDB8MC4wMHw0ODAuMDA=)"
+     id="g22">
+    <rect
+       x="0.00"
+       y="-0.00000000000017"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect20" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g24" />
+  <defs
+     id="defs29">
+    <clipPath
+       id="cpNjYuNTN8NDc0LjUyfDI4LjA0fDM4NS43OA==">
+      <rect
+         x="66.53"
+         y="28.04"
+         width="407.99"
+         height="357.73"
+         id="rect26" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNjYuNTN8NDc0LjUyfDI4LjA0fDM4NS43OA==)"
+     id="g135">
+    <rect
+       x="66.53"
+       y="28.04"
+       width="407.99"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect31" />
+    <polyline
+       points="66.53,349.88 474.52,349.88 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline33" />
+    <polyline
+       points="66.53,278.07 474.52,278.07 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline35" />
+    <polyline
+       points="66.53,206.27 474.52,206.27 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline37" />
+    <polyline
+       points="66.53,134.47 474.52,134.47 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline39" />
+    <polyline
+       points="66.53,62.66 474.52,62.66 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline41" />
+    <polyline
+       points="66.53,385.78 474.52,385.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline43" />
+    <polyline
+       points="66.53,313.98 474.52,313.98 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline45" />
+    <polyline
+       points="66.53,242.17 474.52,242.17 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline47" />
+    <polyline
+       points="66.53,170.37 474.52,170.37 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline49" />
+    <polyline
+       points="66.53,98.56 474.52,98.56 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline51" />
+    <polyline
+       points="100.53,385.78 100.53,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline53" />
+    <polyline
+       points="157.20,385.78 157.20,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline55" />
+    <polyline
+       points="213.86,385.78 213.86,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline57" />
+    <polyline
+       points="270.53,385.78 270.53,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline59" />
+    <polyline
+       points="327.19,385.78 327.19,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline61" />
+    <polyline
+       points="383.86,385.78 383.86,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline63" />
+    <polyline
+       points="440.52,385.78 440.52,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline65" />
+    <rect
+       x="75.03"
+       y="60.57"
+       width="51.00"
+       height="139.34"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect67" />
+    <rect
+       x="131.70"
+       y="350.54"
+       width="51.00"
+       height="19.46"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect69" />
+    <rect
+       x="188.36"
+       y="334.07"
+       width="51.00"
+       height="23.24"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect71" />
+    <rect
+       x="245.03"
+       y="330.50"
+       width="51.00"
+       height="27.37"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect73" />
+    <rect
+       x="301.69"
+       y="287.98"
+       width="51.00"
+       height="48.22"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect75" />
+    <rect
+       x="358.36"
+       y="289.91"
+       width="51.00"
+       height="44.69"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect77" />
+    <rect
+       x="415.02"
+       y="380.01"
+       width="51.00"
+       height="4.51"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect79" />
+    <rect
+       x="75.03"
+       y="199.91"
+       width="51.00"
+       height="0.42"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect81" />
+    <rect
+       x="131.70"
+       y="370.00"
+       width="51.00"
+       height="0.057"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect83" />
+    <rect
+       x="188.36"
+       y="357.30"
+       width="51.00"
+       height="0.014"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect85" />
+    <rect
+       x="301.69"
+       y="336.21"
+       width="51.00"
+       height="0.14"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect87" />
+    <rect
+       x="358.36"
+       y="334.60"
+       width="51.00"
+       height="0.057"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect89" />
+    <rect
+       x="75.03"
+       y="200.32"
+       width="51.00"
+       height="182.96"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect91" />
+    <rect
+       x="131.70"
+       y="370.05"
+       width="51.00"
+       height="15.47"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect93" />
+    <rect
+       x="188.36"
+       y="357.32"
+       width="51.00"
+       height="28.29"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect95" />
+    <rect
+       x="245.03"
+       y="357.88"
+       width="51.00"
+       height="27.60"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect97" />
+    <rect
+       x="301.69"
+       y="336.35"
+       width="51.00"
+       height="49.06"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect99" />
+    <rect
+       x="358.36"
+       y="334.65"
+       width="51.00"
+       height="50.71"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect101" />
+    <rect
+       x="415.02"
+       y="384.52"
+       width="51.00"
+       height="1.15"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect103" />
+    <rect
+       x="75.03"
+       y="383.28"
+       width="51.00"
+       height="2.50"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect105" />
+    <rect
+       x="131.70"
+       y="385.52"
+       width="51.00"
+       height="0.26"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect107" />
+    <rect
+       x="188.36"
+       y="385.61"
+       width="51.00"
+       height="0.17"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect109" />
+    <rect
+       x="245.03"
+       y="385.48"
+       width="51.00"
+       height="0.30"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect111" />
+    <rect
+       x="301.69"
+       y="385.41"
+       width="51.00"
+       height="0.37"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect113" />
+    <rect
+       x="358.36"
+       y="385.36"
+       width="51.00"
+       height="0.42"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect115" />
+    <rect
+       x="415.02"
+       y="385.66"
+       width="51.00"
+       height="0.11"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect117" />
+    <text
+       x="100.53"
+       y="54.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="35.10px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text119">22646</text>
+    <text
+       x="157.20"
+       y="344.51"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text121">2454</text>
+    <text
+       x="213.86"
+       y="328.03"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text123">3601</text>
+    <text
+       x="270.53"
+       y="324.47"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text125">3849</text>
+    <text
+       x="327.19"
+       y="281.95"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text127">6810</text>
+    <text
+       x="383.86"
+       y="283.87"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text129">6676</text>
+    <text
+       x="440.52"
+       y="373.97"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text131">402</text>
+    <polygon
+       points="440.52,358.54 448.18,345.27 432.86,345.27 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon133" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g191">
+    <text
+       x="61.60"
+       y="390.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text137">0</text>
+    <text
+       x="61.60"
+       y="318.35"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text139">5000</text>
+    <text
+       x="61.60"
+       y="246.55"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="38.20px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text141">10000</text>
+    <text
+       x="61.60"
+       y="174.74"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="38.20px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text143">15000</text>
+    <text
+       x="61.60"
+       y="102.94"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="38.20px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text145">20000</text>
+    <polyline
+       points="63.79,385.78 66.53,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline147" />
+    <polyline
+       points="63.79,313.98 66.53,313.98 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline149" />
+    <polyline
+       points="63.79,242.17 66.53,242.17 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline151" />
+    <polyline
+       points="63.79,170.37 66.53,170.37 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline153" />
+    <polyline
+       points="63.79,98.56 66.53,98.56 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline155" />
+    <polyline
+       points="100.53,388.52 100.53,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline157" />
+    <polyline
+       points="157.20,388.52 157.20,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline159" />
+    <polyline
+       points="213.86,388.52 213.86,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline161" />
+    <polyline
+       points="270.53,388.52 270.53,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline163" />
+    <polyline
+       points="327.19,388.52 327.19,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline165" />
+    <polyline
+       points="383.86,388.52 383.86,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline167" />
+    <polyline
+       points="440.52,388.52 440.52,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline169" />
+    <text
+       transform="translate(104.90,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text171">All three</text>
+    <text
+       transform="translate(161.57,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text173">HG003/HG004</text>
+    <text
+       transform="translate(218.23,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text175">HG003 Only</text>
+    <text
+       transform="translate(274.90,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text177">HG004 Only</text>
+    <text
+       transform="translate(331.56,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text179">HG002/HG003</text>
+    <text
+       transform="translate(388.23,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text181">HG002/HG004</text>
+    <text
+       transform="translate(444.90,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text183">HG002 Only</text>
+    <text
+       x="270.53"
+       y="471.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text185">Samples</text>
+    <text
+       transform="translate(17.14,206.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text187">Count</text>
+    <text
+       x="270.53"
+       y="18.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="382.44px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text189">Variants by Sample Presence (All Variants)</text>
+  </g>
+  <defs
+     id="defs196">
+    <clipPath
+       id="cpNDgwLjAwfDk2MC4wMHwwLjAwfDQ4MC4wMA==">
+      <rect
+         x="480.00"
+         y="0.00"
+         width="480.00"
+         height="480.00"
+         id="rect193" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNDgwLjAwfDk2MC4wMHwwLjAwfDQ4MC4wMA==)"
+     id="g200">
+    <rect
+       x="480.00"
+       y="-0.00000000000017"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect198" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g202" />
+  <defs
+     id="defs207">
+    <clipPath
+       id="cpNTMxLjI1fDk1NC41MnwyOC4wNHwzODUuNzg=">
+      <rect
+         x="531.25"
+         y="28.04"
+         width="423.27"
+         height="357.73"
+         id="rect204" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNTMxLjI1fDk1NC41MnwyOC4wNHwzODUuNzg=)"
+     id="g311">
+    <rect
+       x="531.25"
+       y="28.04"
+       width="423.27"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect209" />
+    <polyline
+       points="531.25,345.28 954.52,345.28 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline211" />
+    <polyline
+       points="531.25,264.28 954.52,264.28 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline213" />
+    <polyline
+       points="531.25,183.28 954.52,183.28 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline215" />
+    <polyline
+       points="531.25,102.28 954.52,102.28 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline217" />
+    <polyline
+       points="531.25,385.78 954.52,385.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline219" />
+    <polyline
+       points="531.25,304.78 954.52,304.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline221" />
+    <polyline
+       points="531.25,223.78 954.52,223.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline223" />
+    <polyline
+       points="531.25,142.78 954.52,142.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline225" />
+    <polyline
+       points="531.25,61.78 954.52,61.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline227" />
+    <polyline
+       points="566.52,385.78 566.52,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline229" />
+    <polyline
+       points="625.31,385.78 625.31,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline231" />
+    <polyline
+       points="684.10,385.78 684.10,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline233" />
+    <polyline
+       points="742.89,385.78 742.89,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline235" />
+    <polyline
+       points="801.67,385.78 801.67,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline237" />
+    <polyline
+       points="860.46,385.78 860.46,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline239" />
+    <polyline
+       points="919.25,385.78 919.25,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline241" />
+    <rect
+       x="540.07"
+       y="60.57"
+       width="52.91"
+       height="156.73"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect243" />
+    <rect
+       x="598.86"
+       y="348.52"
+       width="52.91"
+       height="22.27"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect245" />
+    <rect
+       x="657.64"
+       y="332.32"
+       width="52.91"
+       height="30.37"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect247" />
+    <rect
+       x="716.43"
+       y="344.47"
+       width="52.91"
+       height="25.92"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect249" />
+    <rect
+       x="775.22"
+       y="283.31"
+       width="52.91"
+       height="59.94"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect251" />
+    <rect
+       x="834.01"
+       y="285.74"
+       width="52.91"
+       height="55.08"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect253" />
+    <rect
+       x="892.79"
+       y="374.84"
+       width="52.91"
+       height="8.50"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect255" />
+    <rect
+       x="540.07"
+       y="217.30"
+       width="52.91"
+       height="6.48"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect257" />
+    <rect
+       x="598.86"
+       y="370.79"
+       width="52.91"
+       height="1.21"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect259" />
+    <rect
+       x="657.64"
+       y="362.69"
+       width="52.91"
+       height="0.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect261" />
+    <rect
+       x="775.22"
+       y="343.25"
+       width="52.91"
+       height="2.43"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect263" />
+    <rect
+       x="834.01"
+       y="340.82"
+       width="52.91"
+       height="1.21"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect265" />
+    <rect
+       x="540.07"
+       y="223.78"
+       width="52.91"
+       height="125.14"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect267" />
+    <rect
+       x="598.86"
+       y="372.01"
+       width="52.91"
+       height="11.74"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect269" />
+    <rect
+       x="657.64"
+       y="363.10"
+       width="52.91"
+       height="21.46"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect271" />
+    <rect
+       x="716.43"
+       y="370.39"
+       width="52.91"
+       height="13.77"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect273" />
+    <rect
+       x="775.22"
+       y="345.68"
+       width="52.91"
+       height="35.23"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect275" />
+    <rect
+       x="834.01"
+       y="342.04"
+       width="52.91"
+       height="40.90"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect277" />
+    <rect
+       x="892.79"
+       y="383.35"
+       width="52.91"
+       height="2.02"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect279" />
+    <rect
+       x="540.07"
+       y="348.92"
+       width="52.91"
+       height="36.85"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect281" />
+    <rect
+       x="598.86"
+       y="383.75"
+       width="52.91"
+       height="2.02"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect283" />
+    <rect
+       x="657.64"
+       y="384.56"
+       width="52.91"
+       height="1.21"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect285" />
+    <rect
+       x="716.43"
+       y="384.16"
+       width="52.91"
+       height="1.62"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect287" />
+    <rect
+       x="775.22"
+       y="380.92"
+       width="52.91"
+       height="4.86"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect289" />
+    <rect
+       x="834.01"
+       y="382.94"
+       width="52.91"
+       height="2.83"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect291" />
+    <rect
+       x="892.79"
+       y="385.37"
+       width="52.91"
+       height="0.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect293" />
+    <text
+       x="566.52"
+       y="54.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text295">803</text>
+    <text
+       x="625.31"
+       y="342.49"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text297">92</text>
+    <text
+       x="684.10"
+       y="326.29"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text299">132</text>
+    <text
+       x="742.89"
+       y="338.44"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text301">102</text>
+    <text
+       x="801.67"
+       y="277.28"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text303">253</text>
+    <text
+       x="860.46"
+       y="279.71"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text305">247</text>
+    <text
+       x="919.25"
+       y="368.81"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text307">27</text>
+    <polygon
+       points="919.25,353.21 926.91,339.93 911.59,339.93 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon309" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g367">
+    <text
+       x="526.32"
+       y="390.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text313">0</text>
+    <text
+       x="526.32"
+       y="309.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text315">200</text>
+    <text
+       x="526.32"
+       y="228.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text317">400</text>
+    <text
+       x="526.32"
+       y="147.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text319">600</text>
+    <text
+       x="526.32"
+       y="66.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text321">800</text>
+    <polyline
+       points="528.51,385.78 531.25,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline323" />
+    <polyline
+       points="528.51,304.78 531.25,304.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline325" />
+    <polyline
+       points="528.51,223.78 531.25,223.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline327" />
+    <polyline
+       points="528.51,142.78 531.25,142.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline329" />
+    <polyline
+       points="528.51,61.78 531.25,61.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline331" />
+    <polyline
+       points="566.52,388.52 566.52,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline333" />
+    <polyline
+       points="625.31,388.52 625.31,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline335" />
+    <polyline
+       points="684.10,388.52 684.10,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline337" />
+    <polyline
+       points="742.89,388.52 742.89,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline339" />
+    <polyline
+       points="801.67,388.52 801.67,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline341" />
+    <polyline
+       points="860.46,388.52 860.46,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline343" />
+    <polyline
+       points="919.25,388.52 919.25,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline345" />
+    <text
+       transform="translate(570.90,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text347">All three</text>
+    <text
+       transform="translate(629.69,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text349">HG003/HG004</text>
+    <text
+       transform="translate(688.47,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text351">HG003 Only</text>
+    <text
+       transform="translate(747.26,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text353">HG004 Only</text>
+    <text
+       transform="translate(806.05,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text355">HG002/HG003</text>
+    <text
+       transform="translate(864.83,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text357">HG002/HG004</text>
+    <text
+       transform="translate(923.62,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text359">HG002 Only</text>
+    <text
+       x="742.89"
+       y="471.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text361">Samples</text>
+    <text
+       transform="translate(497.14,206.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text363">Count</text>
+    <text
+       x="742.89"
+       y="18.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="325.07px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text365">Variants by Sample Presence (Exon)</text>
+  </g>
+  <defs
+     id="defs372">
+    <clipPath
+       id="cpOTYwLjAwfDE0NDAuMDB8MC4wMHw0ODAuMDA=">
+      <rect
+         x="960.00"
+         y="0.00"
+         width="480.00"
+         height="480.00"
+         id="rect369" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpOTYwLjAwfDE0NDAuMDB8MC4wMHw0ODAuMDA=)"
+     id="g376">
+    <rect
+       x="960.00"
+       y="-0.00000000000017"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect374" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g378" />
+  <defs
+     id="defs383">
+    <clipPath
+       id="cpMTAyNi41M3wxNDM0LjUyfDI4LjA0fDM4NS43OA==">
+      <rect
+         x="1026.53"
+         y="28.04"
+         width="407.99"
+         height="357.73"
+         id="rect380" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMTAyNi41M3wxNDM0LjUyfDI4LjA0fDM4NS43OA==)"
+     id="g491">
+    <rect
+       x="1026.53"
+       y="28.04"
+       width="407.99"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect385" />
+    <polyline
+       points="1026.53,350.13 1434.52,350.13 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline387" />
+    <polyline
+       points="1026.53,278.83 1434.52,278.83 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline389" />
+    <polyline
+       points="1026.53,207.53 1434.52,207.53 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline391" />
+    <polyline
+       points="1026.53,136.23 1434.52,136.23 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline393" />
+    <polyline
+       points="1026.53,64.93 1434.52,64.93 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline395" />
+    <polyline
+       points="1026.53,385.78 1434.52,385.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline397" />
+    <polyline
+       points="1026.53,314.48 1434.52,314.48 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline399" />
+    <polyline
+       points="1026.53,243.18 1434.52,243.18 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline401" />
+    <polyline
+       points="1026.53,171.88 1434.52,171.88 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline403" />
+    <polyline
+       points="1026.53,100.58 1434.52,100.58 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline405" />
+    <polyline
+       points="1026.53,29.28 1434.52,29.28 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline407" />
+    <polyline
+       points="1060.53,385.78 1060.53,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline409" />
+    <polyline
+       points="1117.20,385.78 1117.20,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline411" />
+    <polyline
+       points="1173.86,385.78 1173.86,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline413" />
+    <polyline
+       points="1230.53,385.78 1230.53,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline415" />
+    <polyline
+       points="1287.19,385.78 1287.19,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline417" />
+    <polyline
+       points="1343.86,385.78 1343.86,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline419" />
+    <polyline
+       points="1400.52,385.78 1400.52,28.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline421" />
+    <rect
+       x="1035.03"
+       y="60.57"
+       width="51.00"
+       height="131.51"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect423" />
+    <rect
+       x="1091.70"
+       y="351.75"
+       width="51.00"
+       height="17.91"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect425" />
+    <rect
+       x="1148.36"
+       y="329.28"
+       width="51.00"
+       height="24.38"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect427" />
+    <rect
+       x="1205.03"
+       y="330.11"
+       width="51.00"
+       height="26.27"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect429" />
+    <rect
+       x="1261.69"
+       y="286.53"
+       width="51.00"
+       height="44.98"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect431" />
+    <rect
+       x="1318.36"
+       y="283.11"
+       width="51.00"
+       height="46.43"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect433" />
+    <rect
+       x="1375.02"
+       y="380.42"
+       width="51.00"
+       height="4.34"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect435" />
+    <rect
+       x="1035.03"
+       y="192.07"
+       width="51.00"
+       height="0.46"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect437" />
+    <rect
+       x="1091.70"
+       y="369.67"
+       width="51.00"
+       height="0.086"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect439" />
+    <rect
+       x="1148.36"
+       y="353.67"
+       width="51.00"
+       height="0.029"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect441" />
+    <rect
+       x="1261.69"
+       y="331.51"
+       width="51.00"
+       height="0.20"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect443" />
+    <rect
+       x="1318.36"
+       y="329.54"
+       width="51.00"
+       height="0.086"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect445" />
+    <rect
+       x="1035.03"
+       y="192.53"
+       width="51.00"
+       height="190.03"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect447" />
+    <rect
+       x="1091.70"
+       y="369.75"
+       width="51.00"
+       height="15.77"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect449" />
+    <rect
+       x="1148.36"
+       y="353.69"
+       width="51.00"
+       height="31.86"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect451" />
+    <rect
+       x="1205.03"
+       y="356.37"
+       width="51.00"
+       height="29.12"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect453" />
+    <rect
+       x="1261.69"
+       y="331.71"
+       width="51.00"
+       height="53.53"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect455" />
+    <rect
+       x="1318.36"
+       y="329.62"
+       width="51.00"
+       height="55.70"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect457" />
+    <rect
+       x="1375.02"
+       y="384.75"
+       width="51.00"
+       height="0.94"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect459" />
+    <rect
+       x="1035.03"
+       y="382.56"
+       width="51.00"
+       height="3.22"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect461" />
+    <rect
+       x="1091.70"
+       y="385.52"
+       width="51.00"
+       height="0.26"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect463" />
+    <rect
+       x="1148.36"
+       y="385.55"
+       width="51.00"
+       height="0.23"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect465" />
+    <rect
+       x="1205.03"
+       y="385.49"
+       width="51.00"
+       height="0.29"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect467" />
+    <rect
+       x="1261.69"
+       y="385.24"
+       width="51.00"
+       height="0.54"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect469" />
+    <rect
+       x="1318.36"
+       y="385.32"
+       width="51.00"
+       height="0.46"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect471" />
+    <rect
+       x="1375.02"
+       y="385.69"
+       width="51.00"
+       height="0.086"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect473" />
+    <text
+       x="1060.53"
+       y="54.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="35.10px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text475">11403</text>
+    <text
+       x="1117.20"
+       y="345.72"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text477">1193</text>
+    <text
+       x="1173.86"
+       y="323.25"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text479">1981</text>
+    <text
+       x="1230.53"
+       y="324.08"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text481">1952</text>
+    <text
+       x="1287.19"
+       y="280.50"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text483">3480</text>
+    <text
+       x="1343.86"
+       y="277.08"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text485">3600</text>
+    <text
+       x="1400.52"
+       y="374.39"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text487">188</text>
+    <polygon
+       points="1400.52,358.41 1408.18,345.14 1392.86,345.14 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon489" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g551">
+    <text
+       x="1021.60"
+       y="390.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text493">0</text>
+    <text
+       x="1021.60"
+       y="318.85"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text495">2500</text>
+    <text
+       x="1021.60"
+       y="247.55"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text497">5000</text>
+    <text
+       x="1021.60"
+       y="176.25"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text499">7500</text>
+    <text
+       x="1021.60"
+       y="104.95"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="38.20px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text501">10000</text>
+    <text
+       x="1021.60"
+       y="33.65"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="38.20px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text503">12500</text>
+    <polyline
+       points="1023.79,385.78 1026.53,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline505" />
+    <polyline
+       points="1023.79,314.48 1026.53,314.48 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline507" />
+    <polyline
+       points="1023.79,243.18 1026.53,243.18 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline509" />
+    <polyline
+       points="1023.79,171.88 1026.53,171.88 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline511" />
+    <polyline
+       points="1023.79,100.58 1026.53,100.58 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline513" />
+    <polyline
+       points="1023.79,29.28 1026.53,29.28 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline515" />
+    <polyline
+       points="1060.53,388.52 1060.53,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline517" />
+    <polyline
+       points="1117.20,388.52 1117.20,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline519" />
+    <polyline
+       points="1173.86,388.52 1173.86,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline521" />
+    <polyline
+       points="1230.53,388.52 1230.53,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline523" />
+    <polyline
+       points="1287.19,388.52 1287.19,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline525" />
+    <polyline
+       points="1343.86,388.52 1343.86,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline527" />
+    <polyline
+       points="1400.52,388.52 1400.52,385.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline529" />
+    <text
+       transform="translate(1064.90,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text531">All three</text>
+    <text
+       transform="translate(1121.57,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text533">HG003/HG004</text>
+    <text
+       transform="translate(1178.23,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text535">HG003 Only</text>
+    <text
+       transform="translate(1234.90,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text537">HG004 Only</text>
+    <text
+       transform="translate(1291.56,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text539">HG002/HG003</text>
+    <text
+       transform="translate(1348.23,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text541">HG002/HG004</text>
+    <text
+       transform="translate(1404.90,411.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text543">HG002 Only</text>
+    <text
+       x="1230.53"
+       y="471.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text545">Samples</text>
+    <text
+       transform="translate(977.14,206.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text547">Count</text>
+    <text
+       x="1230.53"
+       y="18.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="328.67px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text549">Variants by Sample Presence (Gene)</text>
+  </g>
+  <defs
+     id="defs556">
+    <clipPath
+       id="cpMC4wMHw0ODAuMDB8NDgwLjAwfDk2MC4wMA==">
+      <rect
+         x="0.00"
+         y="480.00"
+         width="480.00"
+         height="480.00"
+         id="rect553" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMC4wMHw0ODAuMDB8NDgwLjAwfDk2MC4wMA==)"
+     id="g560">
+    <rect
+       x="0.00"
+       y="480.00"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect558" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g562" />
+  <defs
+     id="defs567">
+    <clipPath
+       id="cpNTguODl8NDc0LjUyfDUwOC4wNHw4NjUuNzg=">
+      <rect
+         x="58.89"
+         y="508.04"
+         width="415.63"
+         height="357.73"
+         id="rect564" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNTguODl8NDc0LjUyfDUwOC4wNHw4NjUuNzg=)"
+     id="g673">
+    <rect
+       x="58.89"
+       y="508.04"
+       width="415.63"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect569" />
+    <polyline
+       points="58.89,829.64 474.52,829.64 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline571" />
+    <polyline
+       points="58.89,757.37 474.52,757.37 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline573" />
+    <polyline
+       points="58.89,685.10 474.52,685.10 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline575" />
+    <polyline
+       points="58.89,612.84 474.52,612.84 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline577" />
+    <polyline
+       points="58.89,540.57 474.52,540.57 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline579" />
+    <polyline
+       points="58.89,865.78 474.52,865.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline581" />
+    <polyline
+       points="58.89,793.51 474.52,793.51 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline583" />
+    <polyline
+       points="58.89,721.24 474.52,721.24 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline585" />
+    <polyline
+       points="58.89,648.97 474.52,648.97 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline587" />
+    <polyline
+       points="58.89,576.70 474.52,576.70 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline589" />
+    <polyline
+       points="93.53,865.78 93.53,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline591" />
+    <polyline
+       points="151.25,865.78 151.25,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline593" />
+    <polyline
+       points="208.98,865.78 208.98,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline595" />
+    <polyline
+       points="266.71,865.78 266.71,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline597" />
+    <polyline
+       points="324.43,865.78 324.43,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline599" />
+    <polyline
+       points="382.16,865.78 382.16,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline601" />
+    <polyline
+       points="439.88,865.78 439.88,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline603" />
+    <rect
+       x="67.55"
+       y="540.57"
+       width="51.95"
+       height="186.31"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect605" />
+    <rect
+       x="125.28"
+       y="832.68"
+       width="51.95"
+       height="20.81"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect607" />
+    <rect
+       x="183.00"
+       y="806.37"
+       width="51.95"
+       height="35.27"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect609" />
+    <rect
+       x="240.73"
+       y="802.04"
+       width="51.95"
+       height="38.30"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect611" />
+    <rect
+       x="298.46"
+       y="762.87"
+       width="51.95"
+       height="66.20"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect613" />
+    <rect
+       x="356.18"
+       y="756.51"
+       width="51.95"
+       height="68.51"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect615" />
+    <rect
+       x="413.91"
+       y="860.14"
+       width="51.95"
+       height="4.91"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect617" />
+    <rect
+       x="67.55"
+       y="726.88"
+       width="51.95"
+       height="2.60"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect619" />
+    <rect
+       x="125.28"
+       y="853.49"
+       width="51.95"
+       height="0.43"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect621" />
+    <rect
+       x="183.00"
+       y="841.64"
+       width="51.95"
+       height="0.14"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect623" />
+    <rect
+       x="298.46"
+       y="829.07"
+       width="51.95"
+       height="0.87"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect625" />
+    <rect
+       x="356.18"
+       y="825.02"
+       width="51.95"
+       height="0.58"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect627" />
+    <rect
+       x="67.55"
+       y="729.48"
+       width="51.95"
+       height="119.68"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect629" />
+    <rect
+       x="125.28"
+       y="853.93"
+       width="51.95"
+       height="10.70"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect631" />
+    <rect
+       x="183.00"
+       y="841.79"
+       width="51.95"
+       height="22.84"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect633" />
+    <rect
+       x="240.73"
+       y="840.34"
+       width="51.95"
+       height="23.56"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect635" />
+    <rect
+       x="298.46"
+       y="829.93"
+       width="51.95"
+       height="33.24"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect637" />
+    <rect
+       x="356.18"
+       y="825.60"
+       width="51.95"
+       height="37.87"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect639" />
+    <rect
+       x="413.91"
+       y="865.06"
+       width="51.95"
+       height="0.29"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect641" />
+    <rect
+       x="67.55"
+       y="849.16"
+       width="51.95"
+       height="16.62"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect643" />
+    <rect
+       x="125.28"
+       y="864.62"
+       width="51.95"
+       height="1.16"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect645" />
+    <rect
+       x="183.00"
+       y="864.62"
+       width="51.95"
+       height="1.16"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect647" />
+    <rect
+       x="240.73"
+       y="863.90"
+       width="51.95"
+       height="1.88"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect649" />
+    <rect
+       x="298.46"
+       y="863.18"
+       width="51.95"
+       height="2.60"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect651" />
+    <rect
+       x="356.18"
+       y="863.47"
+       width="51.95"
+       height="2.31"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect653" />
+    <rect
+       x="413.91"
+       y="865.35"
+       width="51.95"
+       height="0.43"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect655" />
+    <text
+       x="93.53"
+       y="534.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text657">2250</text>
+    <text
+       x="151.25"
+       y="826.65"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text659">229</text>
+    <text
+       x="208.98"
+       y="800.34"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text661">411</text>
+    <text
+       x="266.71"
+       y="796.01"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text663">441</text>
+    <text
+       x="324.43"
+       y="756.84"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text665">712</text>
+    <text
+       x="382.16"
+       y="750.48"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text667">756</text>
+    <text
+       x="439.88"
+       y="854.11"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text669">39</text>
+    <polygon
+       points="439.88,837.20 447.55,823.93 432.22,823.93 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon671" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g729">
+    <text
+       x="53.96"
+       y="870.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text675">0</text>
+    <text
+       x="53.96"
+       y="797.88"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text677">500</text>
+    <text
+       x="53.96"
+       y="725.61"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text679">1000</text>
+    <text
+       x="53.96"
+       y="653.34"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text681">1500</text>
+    <text
+       x="53.96"
+       y="581.07"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text683">2000</text>
+    <polyline
+       points="56.15,865.78 58.89,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline685" />
+    <polyline
+       points="56.15,793.51 58.89,793.51 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline687" />
+    <polyline
+       points="56.15,721.24 58.89,721.24 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline689" />
+    <polyline
+       points="56.15,648.97 58.89,648.97 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline691" />
+    <polyline
+       points="56.15,576.70 58.89,576.70 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline693" />
+    <polyline
+       points="93.53,868.52 93.53,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline695" />
+    <polyline
+       points="151.25,868.52 151.25,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline697" />
+    <polyline
+       points="208.98,868.52 208.98,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline699" />
+    <polyline
+       points="266.71,868.52 266.71,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline701" />
+    <polyline
+       points="324.43,868.52 324.43,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline703" />
+    <polyline
+       points="382.16,868.52 382.16,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline705" />
+    <polyline
+       points="439.88,868.52 439.88,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline707" />
+    <text
+       transform="translate(97.90,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text709">All three</text>
+    <text
+       transform="translate(155.63,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text711">HG003/HG004</text>
+    <text
+       transform="translate(213.35,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text713">HG003 Only</text>
+    <text
+       transform="translate(271.08,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text715">HG004 Only</text>
+    <text
+       transform="translate(328.81,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text717">HG002/HG003</text>
+    <text
+       transform="translate(386.53,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text719">HG002/HG004</text>
+    <text
+       transform="translate(444.26,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text721">HG002 Only</text>
+    <text
+       x="266.71"
+       y="951.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text723">Samples</text>
+    <text
+       transform="translate(17.14,686.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text725">Count</text>
+    <text
+       x="266.71"
+       y="498.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="321.35px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text727">Variants by Sample Presence (LINE)</text>
+  </g>
+  <defs
+     id="defs734">
+    <clipPath
+       id="cpNDgwLjAwfDk2MC4wMHw0ODAuMDB8OTYwLjAw">
+      <rect
+         x="480.00"
+         y="480.00"
+         width="480.00"
+         height="480.00"
+         id="rect731" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNDgwLjAwfDk2MC4wMHw0ODAuMDB8OTYwLjAw)"
+     id="g738">
+    <rect
+       x="480.00"
+       y="480.00"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect736" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g740" />
+  <defs
+     id="defs745">
+    <clipPath
+       id="cpNTM4Ljg5fDk1NC41Mnw1MDguMDR8ODY1Ljc4">
+      <rect
+         x="538.89"
+         y="508.04"
+         width="415.63"
+         height="357.73"
+         id="rect742" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNTM4Ljg5fDk1NC41Mnw1MDguMDR8ODY1Ljc4)"
+     id="g847">
+    <rect
+       x="538.89"
+       y="508.04"
+       width="415.63"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect747" />
+    <polyline
+       points="538.89,815.67 954.52,815.67 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline749" />
+    <polyline
+       points="538.89,715.45 954.52,715.45 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline751" />
+    <polyline
+       points="538.89,615.23 954.52,615.23 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline753" />
+    <polyline
+       points="538.89,515.01 954.52,515.01 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline755" />
+    <polyline
+       points="538.89,865.78 954.52,865.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline757" />
+    <polyline
+       points="538.89,765.56 954.52,765.56 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline759" />
+    <polyline
+       points="538.89,665.34 954.52,665.34 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline761" />
+    <polyline
+       points="538.89,565.12 954.52,565.12 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline763" />
+    <polyline
+       points="573.53,865.78 573.53,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline765" />
+    <polyline
+       points="631.25,865.78 631.25,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline767" />
+    <polyline
+       points="688.98,865.78 688.98,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline769" />
+    <polyline
+       points="746.71,865.78 746.71,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline771" />
+    <polyline
+       points="804.43,865.78 804.43,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline773" />
+    <polyline
+       points="862.16,865.78 862.16,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline775" />
+    <polyline
+       points="919.88,865.78 919.88,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline777" />
+    <rect
+       x="547.55"
+       y="540.57"
+       width="51.95"
+       height="199.24"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect779" />
+    <rect
+       x="605.28"
+       y="836.61"
+       width="51.95"
+       height="20.24"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect781" />
+    <rect
+       x="663.00"
+       y="817.37"
+       width="51.95"
+       height="31.87"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect783" />
+    <rect
+       x="720.73"
+       y="817.47"
+       width="51.95"
+       height="32.47"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect785" />
+    <rect
+       x="778.46"
+       y="777.59"
+       width="51.95"
+       height="59.73"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect787" />
+    <rect
+       x="836.18"
+       y="781.69"
+       width="51.95"
+       height="56.52"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect789" />
+    <rect
+       x="893.91"
+       y="861.17"
+       width="51.95"
+       height="3.81"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect791" />
+    <rect
+       x="547.55"
+       y="739.80"
+       width="51.95"
+       height="1.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect793" />
+    <rect
+       x="605.28"
+       y="856.86"
+       width="51.95"
+       height="0.30"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect795" />
+    <rect
+       x="663.00"
+       y="849.24"
+       width="51.95"
+       height="0.10"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect797" />
+    <rect
+       x="778.46"
+       y="837.32"
+       width="51.95"
+       height="0.60"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect799" />
+    <rect
+       x="836.18"
+       y="838.22"
+       width="51.95"
+       height="0.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect801" />
+    <rect
+       x="547.55"
+       y="741.21"
+       width="51.95"
+       height="112.25"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect803" />
+    <rect
+       x="605.28"
+       y="857.16"
+       width="51.95"
+       height="7.52"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect805" />
+    <rect
+       x="663.00"
+       y="849.34"
+       width="51.95"
+       height="15.73"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect807" />
+    <rect
+       x="720.73"
+       y="849.94"
+       width="51.95"
+       height="14.63"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect809" />
+    <rect
+       x="778.46"
+       y="837.92"
+       width="51.95"
+       height="26.16"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect811" />
+    <rect
+       x="836.18"
+       y="838.62"
+       width="51.95"
+       height="26.06"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect813" />
+    <rect
+       x="893.91"
+       y="864.98"
+       width="51.95"
+       height="0.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect815" />
+    <rect
+       x="547.55"
+       y="853.45"
+       width="51.95"
+       height="12.33"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect817" />
+    <rect
+       x="605.28"
+       y="864.68"
+       width="51.95"
+       height="1.10"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect819" />
+    <rect
+       x="663.00"
+       y="865.08"
+       width="51.95"
+       height="0.70"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect821" />
+    <rect
+       x="720.73"
+       y="864.58"
+       width="51.95"
+       height="1.20"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect823" />
+    <rect
+       x="778.46"
+       y="864.08"
+       width="51.95"
+       height="1.70"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect825" />
+    <rect
+       x="836.18"
+       y="864.68"
+       width="51.95"
+       height="1.10"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect827" />
+    <rect
+       x="893.91"
+       y="865.38"
+       width="51.95"
+       height="0.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect829" />
+    <text
+       x="573.53"
+       y="534.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text831">3245</text>
+    <text
+       x="631.25"
+       y="830.58"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text833">291</text>
+    <text
+       x="688.98"
+       y="811.34"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text835">483</text>
+    <text
+       x="746.71"
+       y="811.44"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text837">482</text>
+    <text
+       x="804.43"
+       y="771.55"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text839">880</text>
+    <text
+       x="862.16"
+       y="775.66"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text841">839</text>
+    <text
+       x="919.88"
+       y="855.14"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text843">46</text>
+    <polygon
+       points="919.88,841.47 927.55,828.20 912.22,828.20 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon845" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g899">
+    <text
+       x="533.96"
+       y="870.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text849">0</text>
+    <text
+       x="533.96"
+       y="769.93"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text851">1000</text>
+    <text
+       x="533.96"
+       y="669.71"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text853">2000</text>
+    <text
+       x="533.96"
+       y="569.49"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text855">3000</text>
+    <polyline
+       points="536.15,865.78 538.89,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline857" />
+    <polyline
+       points="536.15,765.56 538.89,765.56 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline859" />
+    <polyline
+       points="536.15,665.34 538.89,665.34 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline861" />
+    <polyline
+       points="536.15,565.12 538.89,565.12 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline863" />
+    <polyline
+       points="573.53,868.52 573.53,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline865" />
+    <polyline
+       points="631.25,868.52 631.25,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline867" />
+    <polyline
+       points="688.98,868.52 688.98,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline869" />
+    <polyline
+       points="746.71,868.52 746.71,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline871" />
+    <polyline
+       points="804.43,868.52 804.43,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline873" />
+    <polyline
+       points="862.16,868.52 862.16,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline875" />
+    <polyline
+       points="919.88,868.52 919.88,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline877" />
+    <text
+       transform="translate(577.90,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text879">All three</text>
+    <text
+       transform="translate(635.63,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text881">HG003/HG004</text>
+    <text
+       transform="translate(693.35,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text883">HG003 Only</text>
+    <text
+       transform="translate(751.08,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text885">HG004 Only</text>
+    <text
+       transform="translate(808.81,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text887">HG002/HG003</text>
+    <text
+       transform="translate(866.53,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text889">HG002/HG004</text>
+    <text
+       transform="translate(924.26,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text891">HG002 Only</text>
+    <text
+       x="746.71"
+       y="951.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text893">Samples</text>
+    <text
+       transform="translate(497.14,686.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text895">Count</text>
+    <text
+       x="746.71"
+       y="498.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="322.75px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text897">Variants by Sample Presence (SINE)</text>
+  </g>
+  <defs
+     id="defs904">
+    <clipPath
+       id="cpOTYwLjAwfDE0NDAuMDB8NDgwLjAwfDk2MC4wMA==">
+      <rect
+         x="960.00"
+         y="480.00"
+         width="480.00"
+         height="480.00"
+         id="rect901" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpOTYwLjAwfDE0NDAuMDB8NDgwLjAwfDk2MC4wMA==)"
+     id="g908">
+    <rect
+       x="960.00"
+       y="480.00"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect906" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g910" />
+  <defs
+     id="defs915">
+    <clipPath
+       id="cpMTAxOC44OXwxNDM0LjUyfDUwOC4wNHw4NjUuNzg=">
+      <rect
+         x="1018.89"
+         y="508.04"
+         width="415.63"
+         height="357.73"
+         id="rect912" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMTAxOC44OXwxNDM0LjUyfDUwOC4wNHw4NjUuNzg=)"
+     id="g1015">
+    <rect
+       x="1018.89"
+       y="508.04"
+       width="415.63"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect917" />
+    <polyline
+       points="1018.89,830.28 1434.52,830.28 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline919" />
+    <polyline
+       points="1018.89,759.27 1434.52,759.27 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline921" />
+    <polyline
+       points="1018.89,688.26 1434.52,688.26 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline923" />
+    <polyline
+       points="1018.89,617.25 1434.52,617.25 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline925" />
+    <polyline
+       points="1018.89,546.25 1434.52,546.25 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline927" />
+    <polyline
+       points="1018.89,865.78 1434.52,865.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline929" />
+    <polyline
+       points="1018.89,794.77 1434.52,794.77 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline931" />
+    <polyline
+       points="1018.89,723.76 1434.52,723.76 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline933" />
+    <polyline
+       points="1018.89,652.76 1434.52,652.76 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline935" />
+    <polyline
+       points="1018.89,581.75 1434.52,581.75 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline937" />
+    <polyline
+       points="1018.89,510.74 1434.52,510.74 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline939" />
+    <polyline
+       points="1053.53,865.78 1053.53,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline941" />
+    <polyline
+       points="1111.25,865.78 1111.25,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline943" />
+    <polyline
+       points="1168.98,865.78 1168.98,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline945" />
+    <polyline
+       points="1226.71,865.78 1226.71,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline947" />
+    <polyline
+       points="1284.43,865.78 1284.43,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline949" />
+    <polyline
+       points="1342.16,865.78 1342.16,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline951" />
+    <polyline
+       points="1399.88,865.78 1399.88,508.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline953" />
+    <rect
+       x="1027.55"
+       y="540.57"
+       width="51.95"
+       height="202.37"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect955" />
+    <rect
+       x="1085.28"
+       y="830.42"
+       width="51.95"
+       height="27.27"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect957" />
+    <rect
+       x="1143.00"
+       y="839.51"
+       width="51.95"
+       height="18.75"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect959" />
+    <rect
+       x="1200.73"
+       y="816.07"
+       width="51.95"
+       height="36.78"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect961" />
+    <rect
+       x="1258.46"
+       y="784.12"
+       width="51.95"
+       height="59.36"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect963" />
+    <rect
+       x="1316.18"
+       y="807.13"
+       width="51.95"
+       height="36.92"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect965" />
+    <rect
+       x="1373.91"
+       y="857.26"
+       width="51.95"
+       height="6.82"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect967" />
+    <rect
+       x="1027.55"
+       y="742.94"
+       width="51.95"
+       height="1.14"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect969" />
+    <rect
+       x="1258.46"
+       y="843.48"
+       width="51.95"
+       height="0.28"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect971" />
+    <rect
+       x="1316.18"
+       y="844.05"
+       width="51.95"
+       height="0.14"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect973" />
+    <rect
+       x="1027.55"
+       y="744.07"
+       width="51.95"
+       height="110.91"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect975" />
+    <rect
+       x="1085.28"
+       y="857.68"
+       width="51.95"
+       height="7.67"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect977" />
+    <rect
+       x="1143.00"
+       y="858.25"
+       width="51.95"
+       height="7.38"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect979" />
+    <rect
+       x="1200.73"
+       y="852.86"
+       width="51.95"
+       height="12.21"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect981" />
+    <rect
+       x="1258.46"
+       y="843.77"
+       width="51.95"
+       height="22.01"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect983" />
+    <rect
+       x="1316.18"
+       y="844.19"
+       width="51.95"
+       height="21.02"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect985" />
+    <rect
+       x="1373.91"
+       y="864.07"
+       width="51.95"
+       height="1.70"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect987" />
+    <rect
+       x="1027.55"
+       y="854.99"
+       width="51.95"
+       height="10.79"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect989" />
+    <rect
+       x="1085.28"
+       y="865.35"
+       width="51.95"
+       height="0.43"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect991" />
+    <rect
+       x="1143.00"
+       y="865.64"
+       width="51.95"
+       height="0.14"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect993" />
+    <rect
+       x="1200.73"
+       y="865.07"
+       width="51.95"
+       height="0.71"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect995" />
+    <rect
+       x="1316.18"
+       y="865.21"
+       width="51.95"
+       height="0.57"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect997" />
+    <text
+       x="1053.53"
+       y="534.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text999">2290</text>
+    <text
+       x="1111.25"
+       y="824.39"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1001">249</text>
+    <text
+       x="1168.98"
+       y="833.47"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1003">185</text>
+    <text
+       x="1226.71"
+       y="810.04"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1005">350</text>
+    <text
+       x="1284.43"
+       y="778.09"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1007">575</text>
+    <text
+       x="1342.16"
+       y="801.10"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1009">413</text>
+    <text
+       x="1399.88"
+       y="851.23"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1011">60</text>
+    <polygon
+       points="1399.88,839.50 1407.55,826.23 1392.22,826.23 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon1013" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g1075">
+    <text
+       x="1013.96"
+       y="870.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1017">0</text>
+    <text
+       x="1013.96"
+       y="799.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1019">500</text>
+    <text
+       x="1013.96"
+       y="728.14"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1021">1000</text>
+    <text
+       x="1013.96"
+       y="657.13"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1023">1500</text>
+    <text
+       x="1013.96"
+       y="586.12"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1025">2000</text>
+    <text
+       x="1013.96"
+       y="515.12"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1027">2500</text>
+    <polyline
+       points="1016.15,865.78 1018.89,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1029" />
+    <polyline
+       points="1016.15,794.77 1018.89,794.77 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1031" />
+    <polyline
+       points="1016.15,723.76 1018.89,723.76 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1033" />
+    <polyline
+       points="1016.15,652.76 1018.89,652.76 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1035" />
+    <polyline
+       points="1016.15,581.75 1018.89,581.75 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1037" />
+    <polyline
+       points="1016.15,510.74 1018.89,510.74 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1039" />
+    <polyline
+       points="1053.53,868.52 1053.53,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1041" />
+    <polyline
+       points="1111.25,868.52 1111.25,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1043" />
+    <polyline
+       points="1168.98,868.52 1168.98,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1045" />
+    <polyline
+       points="1226.71,868.52 1226.71,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1047" />
+    <polyline
+       points="1284.43,868.52 1284.43,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1049" />
+    <polyline
+       points="1342.16,868.52 1342.16,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1051" />
+    <polyline
+       points="1399.88,868.52 1399.88,865.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1053" />
+    <text
+       transform="translate(1057.90,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1055">All three</text>
+    <text
+       transform="translate(1115.63,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1057">HG003/HG004</text>
+    <text
+       transform="translate(1173.35,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1059">HG003 Only</text>
+    <text
+       transform="translate(1231.08,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1061">HG004 Only</text>
+    <text
+       transform="translate(1288.81,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1063">HG002/HG003</text>
+    <text
+       transform="translate(1346.53,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1065">HG002/HG004</text>
+    <text
+       transform="translate(1404.26,891.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1067">HG002 Only</text>
+    <text
+       x="1226.71"
+       y="951.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1069">Samples</text>
+    <text
+       transform="translate(977.14,686.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1071">Count</text>
+    <text
+       x="1226.71"
+       y="498.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="354.90px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1073">Variants by Sample Presence (Satellite)</text>
+  </g>
+  <defs
+     id="defs1080">
+    <clipPath
+       id="cpMC4wMHw0ODAuMDB8OTYwLjAwfDE0NDAuMDA=">
+      <rect
+         x="0.00"
+         y="960.00"
+         width="480.00"
+         height="480.00"
+         id="rect1077" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMC4wMHw0ODAuMDB8OTYwLjAwfDE0NDAuMDA=)"
+     id="g1084">
+    <rect
+       x="0.00"
+       y="960.00"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect1082" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g1086" />
+  <defs
+     id="defs1091">
+    <clipPath
+       id="cpNTguODl8NDc0LjUyfDk4OC4wNHwxMzQ1Ljc4">
+      <rect
+         x="58.89"
+         y="988.04"
+         width="415.63"
+         height="357.73"
+         id="rect1088" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNTguODl8NDc0LjUyfDk4OC4wNHwxMzQ1Ljc4)"
+     id="g1193">
+    <rect
+       x="58.89"
+       y="988.04"
+       width="415.63"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect1093" />
+    <polyline
+       points="58.89,1295.19 474.52,1295.19 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1095" />
+    <polyline
+       points="58.89,1194.02 474.52,1194.02 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1097" />
+    <polyline
+       points="58.89,1092.85 474.52,1092.85 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1099" />
+    <polyline
+       points="58.89,991.68 474.52,991.68 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1101" />
+    <polyline
+       points="58.89,1345.78 474.52,1345.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1103" />
+    <polyline
+       points="58.89,1244.61 474.52,1244.61 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1105" />
+    <polyline
+       points="58.89,1143.44 474.52,1143.44 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1107" />
+    <polyline
+       points="58.89,1042.27 474.52,1042.27 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1109" />
+    <polyline
+       points="93.53,1345.78 93.53,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1111" />
+    <polyline
+       points="151.25,1345.78 151.25,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1113" />
+    <polyline
+       points="208.98,1345.78 208.98,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1115" />
+    <polyline
+       points="266.71,1345.78 266.71,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1117" />
+    <polyline
+       points="324.43,1345.78 324.43,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1119" />
+    <polyline
+       points="382.16,1345.78 382.16,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1121" />
+    <polyline
+       points="439.88,1345.78 439.88,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1123" />
+    <rect
+       x="67.55"
+       y="1020.57"
+       width="51.95"
+       height="127.17"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1125" />
+    <rect
+       x="125.28"
+       y="1308.19"
+       width="51.95"
+       height="20.74"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1127" />
+    <rect
+       x="183.00"
+       y="1298.43"
+       width="51.95"
+       height="19.68"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1129" />
+    <rect
+       x="240.73"
+       y="1293.32"
+       width="51.95"
+       height="25.70"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1131" />
+    <rect
+       x="298.46"
+       y="1249.16"
+       width="51.95"
+       height="46.99"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1133" />
+    <rect
+       x="356.18"
+       y="1252.15"
+       width="51.95"
+       height="38.65"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1135" />
+    <rect
+       x="413.91"
+       y="1341.98"
+       width="51.95"
+       height="2.78"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1137" />
+    <rect
+       x="67.55"
+       y="1147.74"
+       width="51.95"
+       height="0.96"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1139" />
+    <rect
+       x="125.28"
+       y="1328.93"
+       width="51.95"
+       height="0.15"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1141" />
+    <rect
+       x="183.00"
+       y="1318.11"
+       width="51.95"
+       height="0.051"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1143" />
+    <rect
+       x="298.46"
+       y="1296.15"
+       width="51.95"
+       height="0.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1145" />
+    <rect
+       x="356.18"
+       y="1290.79"
+       width="51.95"
+       height="0.20"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1147" />
+    <rect
+       x="67.55"
+       y="1148.70"
+       width="51.95"
+       height="190.20"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1149" />
+    <rect
+       x="125.28"
+       y="1329.09"
+       width="51.95"
+       height="16.14"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1151" />
+    <rect
+       x="183.00"
+       y="1318.16"
+       width="51.95"
+       height="27.52"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1153" />
+    <rect
+       x="240.73"
+       y="1319.02"
+       width="51.95"
+       height="26.46"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1155" />
+    <rect
+       x="298.46"
+       y="1296.56"
+       width="51.95"
+       height="48.46"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1157" />
+    <rect
+       x="356.18"
+       y="1290.99"
+       width="51.95"
+       height="54.18"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1159" />
+    <rect
+       x="413.91"
+       y="1344.77"
+       width="51.95"
+       height="0.91"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1161" />
+    <rect
+       x="67.55"
+       y="1338.90"
+       width="51.95"
+       height="6.88"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1163" />
+    <rect
+       x="125.28"
+       y="1345.22"
+       width="51.95"
+       height="0.56"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1165" />
+    <rect
+       x="183.00"
+       y="1345.68"
+       width="51.95"
+       height="0.10"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1167" />
+    <rect
+       x="240.73"
+       y="1345.48"
+       width="51.95"
+       height="0.30"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1169" />
+    <rect
+       x="298.46"
+       y="1345.02"
+       width="51.95"
+       height="0.76"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1171" />
+    <rect
+       x="356.18"
+       y="1345.17"
+       width="51.95"
+       height="0.61"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1173" />
+    <rect
+       x="413.91"
+       y="1345.68"
+       width="51.95"
+       height="0.10"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1175" />
+    <text
+       x="93.53"
+       y="1014.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1177">6429</text>
+    <text
+       x="151.25"
+       y="1302.16"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1179">743</text>
+    <text
+       x="208.98"
+       y="1292.40"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1181">936</text>
+    <text
+       x="266.71"
+       y="1287.29"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1183">1037</text>
+    <text
+       x="324.43"
+       y="1243.13"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1185">1910</text>
+    <text
+       x="382.16"
+       y="1246.11"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1187">1851</text>
+    <text
+       x="439.88"
+       y="1335.95"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1189">75</text>
+    <polygon
+       points="439.88,1320.98 447.55,1307.71 432.22,1307.71 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon1191" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g1245">
+    <text
+       x="53.96"
+       y="1350.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1195">0</text>
+    <text
+       x="53.96"
+       y="1248.98"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1197">2000</text>
+    <text
+       x="53.96"
+       y="1147.81"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1199">4000</text>
+    <text
+       x="53.96"
+       y="1046.64"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1201">6000</text>
+    <polyline
+       points="56.15,1345.78 58.89,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1203" />
+    <polyline
+       points="56.15,1244.61 58.89,1244.61 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1205" />
+    <polyline
+       points="56.15,1143.44 58.89,1143.44 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1207" />
+    <polyline
+       points="56.15,1042.27 58.89,1042.27 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1209" />
+    <polyline
+       points="93.53,1348.52 93.53,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1211" />
+    <polyline
+       points="151.25,1348.52 151.25,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1213" />
+    <polyline
+       points="208.98,1348.52 208.98,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1215" />
+    <polyline
+       points="266.71,1348.52 266.71,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1217" />
+    <polyline
+       points="324.43,1348.52 324.43,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1219" />
+    <polyline
+       points="382.16,1348.52 382.16,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1221" />
+    <polyline
+       points="439.88,1348.52 439.88,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1223" />
+    <text
+       transform="translate(97.90,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1225">All three</text>
+    <text
+       transform="translate(155.63,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1227">HG003/HG004</text>
+    <text
+       transform="translate(213.35,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1229">HG003 Only</text>
+    <text
+       transform="translate(271.08,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1231">HG004 Only</text>
+    <text
+       transform="translate(328.81,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1233">HG002/HG003</text>
+    <text
+       transform="translate(386.53,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1235">HG002/HG004</text>
+    <text
+       transform="translate(444.26,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1237">HG002 Only</text>
+    <text
+       x="266.71"
+       y="1431.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1239">Samples</text>
+    <text
+       transform="translate(17.14,1166.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1241">Count</text>
+    <text
+       x="266.71"
+       y="978.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="411.72px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1243">Variants by Sample Presence (Simple Repeat)</text>
+  </g>
+  <defs
+     id="defs1250">
+    <clipPath
+       id="cpNDgwLjAwfDk2MC4wMHw5NjAuMDB8MTQ0MC4wMA==">
+      <rect
+         x="480.00"
+         y="960.00"
+         width="480.00"
+         height="480.00"
+         id="rect1247" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNDgwLjAwfDk2MC4wMHw5NjAuMDB8MTQ0MC4wMA==)"
+     id="g1254">
+    <rect
+       x="480.00"
+       y="960.00"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect1252" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g1256" />
+  <defs
+     id="defs1261">
+    <clipPath
+       id="cpNTMxLjI1fDk1NC41Mnw5ODguMDR8MTM0NS43OA==">
+      <rect
+         x="531.25"
+         y="988.04"
+         width="423.27"
+         height="357.73"
+         id="rect1258" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpNTMxLjI1fDk1NC41Mnw5ODguMDR8MTM0NS43OA==)"
+     id="g1363">
+    <rect
+       x="531.25"
+       y="988.04"
+       width="423.27"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect1263" />
+    <polyline
+       points="531.25,1301.77 954.52,1301.77 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1265" />
+    <polyline
+       points="531.25,1213.76 954.52,1213.76 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1267" />
+    <polyline
+       points="531.25,1125.74 954.52,1125.74 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1269" />
+    <polyline
+       points="531.25,1037.73 954.52,1037.73 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1271" />
+    <polyline
+       points="531.25,1345.78 954.52,1345.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1273" />
+    <polyline
+       points="531.25,1257.76 954.52,1257.76 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1275" />
+    <polyline
+       points="531.25,1169.75 954.52,1169.75 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1277" />
+    <polyline
+       points="531.25,1081.74 954.52,1081.74 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1279" />
+    <polyline
+       points="531.25,993.72 954.52,993.72 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1281" />
+    <polyline
+       points="566.52,1345.78 566.52,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1283" />
+    <polyline
+       points="625.31,1345.78 625.31,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1285" />
+    <polyline
+       points="684.10,1345.78 684.10,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1287" />
+    <polyline
+       points="742.89,1345.78 742.89,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1289" />
+    <polyline
+       points="801.67,1345.78 801.67,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1291" />
+    <polyline
+       points="860.46,1345.78 860.46,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1293" />
+    <polyline
+       points="919.25,1345.78 919.25,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1295" />
+    <rect
+       x="540.07"
+       y="1020.57"
+       width="52.91"
+       height="99.02"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1297" />
+    <rect
+       x="598.86"
+       y="1320.25"
+       width="52.91"
+       height="12.76"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1299" />
+    <rect
+       x="657.64"
+       y="1309.25"
+       width="52.91"
+       height="18.04"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1301" />
+    <rect
+       x="716.43"
+       y="1309.25"
+       width="52.91"
+       height="18.04"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1303" />
+    <rect
+       x="775.22"
+       y="1264.37"
+       width="52.91"
+       height="39.17"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1305" />
+    <rect
+       x="834.01"
+       y="1280.21"
+       width="52.91"
+       height="28.60"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1307" />
+    <rect
+       x="892.79"
+       y="1341.82"
+       width="52.91"
+       height="3.08"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1309" />
+    <rect
+       x="540.07"
+       y="1119.58"
+       width="52.91"
+       height="4.40"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1311" />
+    <rect
+       x="598.86"
+       y="1333.02"
+       width="52.91"
+       height="1.32"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1313" />
+    <rect
+       x="657.64"
+       y="1327.30"
+       width="52.91"
+       height="0.44"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1315" />
+    <rect
+       x="775.22"
+       y="1303.53"
+       width="52.91"
+       height="1.76"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1317" />
+    <rect
+       x="834.01"
+       y="1308.81"
+       width="52.91"
+       height="0.88"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1319" />
+    <rect
+       x="540.07"
+       y="1123.98"
+       width="52.91"
+       height="184.39"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1321" />
+    <rect
+       x="598.86"
+       y="1334.34"
+       width="52.91"
+       height="9.68"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1323" />
+    <rect
+       x="657.64"
+       y="1327.74"
+       width="52.91"
+       height="16.28"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1325" />
+    <rect
+       x="716.43"
+       y="1327.30"
+       width="52.91"
+       height="16.72"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1327" />
+    <rect
+       x="775.22"
+       y="1305.29"
+       width="52.91"
+       height="35.21"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1329" />
+    <rect
+       x="834.01"
+       y="1309.69"
+       width="52.91"
+       height="34.33"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1331" />
+    <rect
+       x="892.79"
+       y="1344.90"
+       width="52.91"
+       height="0.88"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1333" />
+    <rect
+       x="540.07"
+       y="1308.37"
+       width="52.91"
+       height="37.41"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1335" />
+    <rect
+       x="598.86"
+       y="1344.02"
+       width="52.91"
+       height="1.76"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1337" />
+    <rect
+       x="657.64"
+       y="1344.02"
+       width="52.91"
+       height="1.76"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1339" />
+    <rect
+       x="716.43"
+       y="1344.02"
+       width="52.91"
+       height="1.76"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1341" />
+    <rect
+       x="775.22"
+       y="1340.50"
+       width="52.91"
+       height="5.28"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1343" />
+    <rect
+       x="834.01"
+       y="1344.02"
+       width="52.91"
+       height="1.76"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1345" />
+    <text
+       x="566.52"
+       y="1014.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1347">739</text>
+    <text
+       x="625.31"
+       y="1314.22"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1349">58</text>
+    <text
+       x="684.10"
+       y="1303.22"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1351">83</text>
+    <text
+       x="742.89"
+       y="1303.22"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1353">83</text>
+    <text
+       x="801.67"
+       y="1258.33"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1355">185</text>
+    <text
+       x="860.46"
+       y="1274.18"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1357">149</text>
+    <text
+       x="919.25"
+       y="1335.79"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="7.02px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1359">9</text>
+    <polygon
+       points="919.25,1324.54 926.91,1311.27 911.59,1311.27 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon1361" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g1419">
+    <text
+       x="526.32"
+       y="1350.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1365">0</text>
+    <text
+       x="526.32"
+       y="1262.14"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1367">200</text>
+    <text
+       x="526.32"
+       y="1174.12"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1369">400</text>
+    <text
+       x="526.32"
+       y="1086.11"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1371">600</text>
+    <text
+       x="526.32"
+       y="998.10"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1373">800</text>
+    <polyline
+       points="528.51,1345.78 531.25,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1375" />
+    <polyline
+       points="528.51,1257.76 531.25,1257.76 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1377" />
+    <polyline
+       points="528.51,1169.75 531.25,1169.75 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1379" />
+    <polyline
+       points="528.51,1081.74 531.25,1081.74 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1381" />
+    <polyline
+       points="528.51,993.72 531.25,993.72 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1383" />
+    <polyline
+       points="566.52,1348.52 566.52,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1385" />
+    <polyline
+       points="625.31,1348.52 625.31,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1387" />
+    <polyline
+       points="684.10,1348.52 684.10,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1389" />
+    <polyline
+       points="742.89,1348.52 742.89,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1391" />
+    <polyline
+       points="801.67,1348.52 801.67,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1393" />
+    <polyline
+       points="860.46,1348.52 860.46,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1395" />
+    <polyline
+       points="919.25,1348.52 919.25,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1397" />
+    <text
+       transform="translate(570.90,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1399">All three</text>
+    <text
+       transform="translate(629.69,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1401">HG003/HG004</text>
+    <text
+       transform="translate(688.47,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1403">HG003 Only</text>
+    <text
+       transform="translate(747.26,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1405">HG004 Only</text>
+    <text
+       transform="translate(806.05,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1407">HG002/HG003</text>
+    <text
+       transform="translate(864.83,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1409">HG002/HG004</text>
+    <text
+       transform="translate(923.62,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1411">HG002 Only</text>
+    <text
+       x="742.89"
+       y="1431.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1413">Samples</text>
+    <text
+       transform="translate(497.14,1166.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1415">Count</text>
+    <text
+       x="742.89"
+       y="978.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="424.03px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1417">Variants by Sample Presence (Low Complexity)</text>
+  </g>
+  <defs
+     id="defs1424">
+    <clipPath
+       id="cpOTYwLjAwfDE0NDAuMDB8OTYwLjAwfDE0NDAuMDA=">
+      <rect
+         x="960.00"
+         y="960.00"
+         width="480.00"
+         height="480.00"
+         id="rect1421" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpOTYwLjAwfDE0NDAuMDB8OTYwLjAwfDE0NDAuMDA=)"
+     id="g1428">
+    <rect
+       x="960.00"
+       y="960.00"
+       width="480.00"
+       height="480.00"
+       style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
+       id="rect1426" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g1430" />
+  <defs
+     id="defs1435">
+    <clipPath
+       id="cpMTAxOC44OXwxNDM0LjUyfDk4OC4wNHwxMzQ1Ljc4">
+      <rect
+         x="1018.89"
+         y="988.04"
+         width="415.63"
+         height="357.73"
+         id="rect1432" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#cpMTAxOC44OXwxNDM0LjUyfDk4OC4wNHwxMzQ1Ljc4)"
+     id="g1517">
+    <rect
+       x="1018.89"
+       y="988.04"
+       width="415.63"
+       height="357.73"
+       style="stroke-width: 1.07; stroke: none; fill: #EBEBEB;"
+       id="rect1437" />
+    <polyline
+       points="1018.89,1280.11 1434.52,1280.11 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1439" />
+    <polyline
+       points="1018.89,1148.76 1434.52,1148.76 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1441" />
+    <polyline
+       points="1018.89,1017.41 1434.52,1017.41 "
+       style="stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1443" />
+    <polyline
+       points="1018.89,1345.78 1434.52,1345.78 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1445" />
+    <polyline
+       points="1018.89,1214.43 1434.52,1214.43 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1447" />
+    <polyline
+       points="1018.89,1083.09 1434.52,1083.09 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1449" />
+    <polyline
+       points="1053.53,1345.78 1053.53,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1451" />
+    <polyline
+       points="1111.25,1345.78 1111.25,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1453" />
+    <polyline
+       points="1168.98,1345.78 1168.98,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1455" />
+    <polyline
+       points="1226.71,1345.78 1226.71,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1457" />
+    <polyline
+       points="1284.43,1345.78 1284.43,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1459" />
+    <polyline
+       points="1342.16,1345.78 1342.16,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1461" />
+    <polyline
+       points="1399.88,1345.78 1399.88,988.04 "
+       style="stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;"
+       id="polyline1463" />
+    <rect
+       x="1027.55"
+       y="1020.57"
+       width="51.95"
+       height="232.22"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1465" />
+    <rect
+       x="1085.28"
+       y="1317.15"
+       width="51.95"
+       height="24.43"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1467" />
+    <rect
+       x="1143.00"
+       y="1319.25"
+       width="51.95"
+       height="22.33"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1469" />
+    <rect
+       x="1200.73"
+       y="1291.14"
+       width="51.95"
+       height="44.39"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1471" />
+    <rect
+       x="1258.46"
+       y="1261.98"
+       width="51.95"
+       height="69.09"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1473" />
+    <rect
+       x="1316.18"
+       y="1279.32"
+       width="51.95"
+       height="44.66"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1475" />
+    <rect
+       x="1373.91"
+       y="1340.00"
+       width="51.95"
+       height="5.25"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #CC6677;"
+       id="rect1477" />
+    <rect
+       x="1027.55"
+       y="1252.79"
+       width="51.95"
+       height="0.79"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #332288;"
+       id="rect1479" />
+    <rect
+       x="1027.55"
+       y="1253.57"
+       width="51.95"
+       height="87.21"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1481" />
+    <rect
+       x="1085.28"
+       y="1341.58"
+       width="51.95"
+       height="3.94"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1483" />
+    <rect
+       x="1143.00"
+       y="1341.58"
+       width="51.95"
+       height="4.20"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1485" />
+    <rect
+       x="1200.73"
+       y="1335.53"
+       width="51.95"
+       height="9.98"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1487" />
+    <rect
+       x="1258.46"
+       y="1331.07"
+       width="51.95"
+       height="14.71"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1489" />
+    <rect
+       x="1316.18"
+       y="1323.98"
+       width="51.95"
+       height="21.80"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1491" />
+    <rect
+       x="1373.91"
+       y="1345.25"
+       width="51.95"
+       height="0.53"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44AA99;"
+       id="rect1493" />
+    <rect
+       x="1027.55"
+       y="1340.79"
+       width="51.95"
+       height="4.99"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1495" />
+    <rect
+       x="1085.28"
+       y="1345.52"
+       width="51.95"
+       height="0.26"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1497" />
+    <rect
+       x="1200.73"
+       y="1345.52"
+       width="51.95"
+       height="0.26"
+       style="stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #DDCC77;"
+       id="rect1499" />
+    <text
+       x="1053.53"
+       y="1014.53"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="28.08px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1501">1238</text>
+    <text
+       x="1111.25"
+       y="1311.11"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1503">109</text>
+    <text
+       x="1168.98"
+       y="1313.22"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1505">101</text>
+    <text
+       x="1226.71"
+       y="1285.11"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1507">208</text>
+    <text
+       x="1284.43"
+       y="1255.95"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1509">319</text>
+    <text
+       x="1342.16"
+       y="1273.29"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="21.06px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1511">253</text>
+    <text
+       x="1399.88"
+       y="1333.97"
+       text-anchor="middle"
+       style="font-size: 11.04px; font-family: Arimo;"
+       textLength="14.04px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1513">22</text>
+    <polygon
+       points="1399.88,1321.98 1407.55,1308.71 1392.22,1308.71 "
+       style="stroke-width: 0.71; stroke: #8B0000; fill: #8B0000;"
+       id="polygon1515" />
+  </g>
+  <g
+     clip-path="url(#cpMC4wMHwxNDQwLjAwfDAuMDB8MTQ0MC4wMA==)"
+     id="g1565">
+    <text
+       x="1013.96"
+       y="1350.15"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="7.64px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1519">0</text>
+    <text
+       x="1013.96"
+       y="1218.81"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="22.92px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1521">500</text>
+    <text
+       x="1013.96"
+       y="1087.46"
+       text-anchor="end"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="30.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1523">1000</text>
+    <polyline
+       points="1016.15,1345.78 1018.89,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1525" />
+    <polyline
+       points="1016.15,1214.43 1018.89,1214.43 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1527" />
+    <polyline
+       points="1016.15,1083.09 1018.89,1083.09 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1529" />
+    <polyline
+       points="1053.53,1348.52 1053.53,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1531" />
+    <polyline
+       points="1111.25,1348.52 1111.25,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1533" />
+    <polyline
+       points="1168.98,1348.52 1168.98,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1535" />
+    <polyline
+       points="1226.71,1348.52 1226.71,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1537" />
+    <polyline
+       points="1284.43,1348.52 1284.43,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1539" />
+    <polyline
+       points="1342.16,1348.52 1342.16,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1541" />
+    <polyline
+       points="1399.88,1348.52 1399.88,1345.78 "
+       style="stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;"
+       id="polyline1543" />
+    <text
+       transform="translate(1057.90,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="50.45px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1545">All three</text>
+    <text
+       transform="translate(1115.63,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1547">HG003/HG004</text>
+    <text
+       transform="translate(1173.35,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1549">HG003 Only</text>
+    <text
+       transform="translate(1231.08,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1551">HG004 Only</text>
+    <text
+       transform="translate(1288.81,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1553">HG002/HG003</text>
+    <text
+       transform="translate(1346.53,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="86.54px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1555">HG002/HG004</text>
+    <text
+       transform="translate(1404.26,1371.04) rotate(-30)"
+       text-anchor="middle"
+       style="font-size: 12.00px; fill: #4D4D4D; font-family: Arimo;"
+       textLength="72.56px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1557">HG002 Only</text>
+    <text
+       x="1226.71"
+       y="1431.00"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="68.32px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1559">Samples</text>
+    <text
+       transform="translate(977.14,1166.91) rotate(-90)"
+       text-anchor="middle"
+       style="font-size: 16.00px; font-family: Arimo;"
+       textLength="47.51px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1561">Count</text>
+    <text
+       x="1226.71"
+       y="978.61"
+       text-anchor="middle"
+       style="font-size: 18.00px; font-family: Arimo;"
+       textLength="387.99px"
+       lengthAdjust="spacingAndGlyphs"
+       id="text1563">Variants by Sample Presence (Centromere)</text>
+  </g>
+  <rect
+     x="1350"
+     y="35.94001"
+     width="71.879997"
+     height="126.05999"
+     style="fill:#ffffff;stroke:none;stroke-width:1.07000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     id="rect194" />
+  <text
+     transform="translate(937.3,0.97003857)"
+     x="418.17999"
+     y="57.110001"
+     style="font-size:20px;font-family:Arimo"
+     textLength="45.939999"
+     lengthAdjust="spacingAndGlyphs"
+     id="text196">Type</text>
+  <rect
+     x="1355.48"
+     y="70.130013"
+     width="17.280001"
+     height="17.280001"
+     style="fill:#f2f2f2;stroke:none;stroke-width:1.07000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     id="rect198-3" />
+  <rect
+     x="1356.1799"
+     y="70.830025"
+     width="15.859999"
+     height="15.859999"
+     style="fill:#cc6677;stroke:none;stroke-width:1.07000005;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+     id="rect200" />
+  <rect
+     x="1355.48"
+     y="87.410042"
+     width="17.280001"
+     height="17.280001"
+     style="fill:#f2f2f2;stroke:none;stroke-width:1.07000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     id="rect202" />
+  <rect
+     x="1356.1799"
+     y="88.110054"
+     width="15.859999"
+     height="15.859999"
+     style="fill:#332288;stroke:none;stroke-width:1.07000005;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+     id="rect204-6" />
+  <rect
+     x="1355.48"
+     y="104.69001"
+     width="17.280001"
+     height="17.280001"
+     style="fill:#f2f2f2;stroke:none;stroke-width:1.07000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     id="rect206" />
+  <rect
+     x="1356.1799"
+     y="105.39002"
+     width="15.859999"
+     height="15.859999"
+     style="fill:#44aa99;stroke:none;stroke-width:1.07000005;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+     id="rect208" />
+  <rect
+     x="1355.48"
+     y="121.97004"
+     width="17.280001"
+     height="17.280001"
+     style="fill:#f2f2f2;stroke:none;stroke-width:1.07000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     id="rect210" />
+  <rect
+     x="1356.1799"
+     y="122.67005"
+     width="15.859999"
+     height="15.859999"
+     style="fill:#ddcc77;stroke:none;stroke-width:1.07000005;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+     id="rect212" />
+  <rect
+     x="1355.48"
+     y="139.25"
+     width="17.280001"
+     height="17.280001"
+     style="fill:#f2f2f2;stroke:none;stroke-width:1.07000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     id="rect214" />
+  <rect
+     x="1356.1799"
+     y="139.95001"
+     width="15.859999"
+     height="15.859999"
+     style="fill:#88ccee;stroke:none;stroke-width:1.07000005;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+     id="rect216" />
+  <text
+     transform="translate(937.3,0.97003857)"
+     x="445.42001"
+     y="83.629997"
+     style="font-size:16px;font-family:Arimo"
+     textLength="31.34"
+     lengthAdjust="spacingAndGlyphs"
+     id="text218">DEL</text>
+  <text
+     transform="translate(937.3,0.97003857)"
+     x="445.42001"
+     y="100.91"
+     style="font-size:16px;font-family:Arimo"
+     textLength="33.669998"
+     lengthAdjust="spacingAndGlyphs"
+     id="text220">DUP</text>
+  <text
+     transform="translate(937.3,0.97003857)"
+     x="445.42001"
+     y="118.19"
+     style="font-size:16px;font-family:Arimo"
+     textLength="26.83"
+     lengthAdjust="spacingAndGlyphs"
+     id="text222">INS</text>
+  <text
+     transform="translate(937.3,0.97003857)"
+     x="445.42001"
+     y="135.47"
+     style="font-size:16px;font-family:Arimo"
+     textLength="27.629999"
+     lengthAdjust="spacingAndGlyphs"
+     id="text224">INV</text>
+  <text
+     transform="translate(937.3,0.97003857)"
+     x="445.42001"
+     y="152.75"
+     style="font-size:16px;font-family:Arimo"
+     textLength="31.18"
+     lengthAdjust="spacingAndGlyphs"
+     id="text226">TRA</text>
+</svg>

@@ -6,22 +6,29 @@ library(reshape2)
 library(gridExtra)
 library(rlist)
 
-suppvec_hist <- function(df, caller, outfile) {
+suppvec_hist <- function(df, caller, outfile, lengthfilter) {
   df$SUPP_VEC_STRING <- str_pad(as.character(df$SUPP_VEC), 3, "left", "0")
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "100", "Child Only", df$SUPP_VEC_STRING)
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "010", "Father Only", df$SUPP_VEC_STRING)
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "001", "Mother Only", df$SUPP_VEC_STRING)
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "110", "Son/Father", df$SUPP_VEC_STRING)
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "101", "Son/Mother", df$SUPP_VEC_STRING)
-  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "011", "Both parents", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "100", "HG002 Only", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "010", "HG003 Only", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "001", "HG004 Only", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "110", "HG002/HG003", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "101", "HG002/HG004", df$SUPP_VEC_STRING)
+  df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "011", "HG003/HG004", df$SUPP_VEC_STRING)
   df$SUPP_VEC_STRING <- ifelse(df$SUPP_VEC_STRING == "111", "All three", df$SUPP_VEC_STRING)
+  
+  titlestart<- "Variants by Sample Presence"
+  if(lengthfilter)
+  {
+    titlestart<- "SVs by Sample Presence"
+    
+  }
   
   suppveccounts <- df %>% count(SUPP_VEC_STRING)
   suppveccounts
   suppveccounts$TYPE = "INS"
   ggplot(df, aes(x = SUPP_VEC_STRING, y = 1, fill = TYPE)) +
     geom_bar(position = "stack", stat = "identity") +
-    labs(title = paste("SVs by Sample Presence (", caller, ")", sep = "")) +
+    labs(title = paste(titlestart, " (", caller, ")", sep = "")) +
     xlab("Samples") +
     ylab("Count") +
     scale_y_continuous(expand = expansion(mult = c(0, .1))) +
@@ -34,6 +41,7 @@ suppvec_hist <- function(df, caller, outfile) {
           legend.title = element_text(size = 16),
     ) +
     scale_fill_discrete(name = "SVTYPE") +
+    guides(fill=guide_legend(title="Type")) +
     geom_text(data = suppveccounts, aes(x = SUPP_VEC_STRING, y=n, label=n), position=position_dodge(width=0.9), vjust=-0.75)
   
   ggsave(outfile, width= 7, height = 8)
@@ -128,27 +136,27 @@ nrow(df %>% filter(CENTROMERE_FLAG == 1))
 colnames(df)
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_all_svhist.png"
-suppvec_hist(df, "JasmineAll", outfile)
+suppvec_hist(df, "JasmineAll", outfile, FALSE)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_all_length.png"
 plot_length(df, "JasmineAll", outfile)
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_cen_svhist.png"
-suppvec_hist(df %>% filter(CENTROMERE_FLAG == 1), "JasmineCentromere", outfile)
+suppvec_hist(df %>% filter(CENTROMERE_FLAG == 1), "JasmineCentromere", outfile, FALSE)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_cen_length.png"
 plot_length(df %>% filter(CENTROMERE_FLAG == 1), "JasmineCentromere", outfile)
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_repeat_svhist.png"
-suppvec_hist(df %>% filter(REPEAT_FLAG == 1), "JasmineRepeat", outfile)
+suppvec_hist(df %>% filter(REPEAT_FLAG == 1), "JasmineRepeat", outfile, FALSE)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_repeat_length.png"
 plot_length(df %>% filter(REPEAT_FLAG == 1), "JasmineRepeat", outfile)
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_gene_svhist.png"
-suppvec_hist(df %>% filter(GENE_FLAG == 1), "JasmineGene", outfile)
+suppvec_hist(df %>% filter(GENE_FLAG == 1), "JasmineGene", outfile, FALSE)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_gene_length.png"
 plot_length(df %>% filter(GENE_FLAG == 1), "JasmineGene", outfile)
 
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_exon_svhist.png"
-suppvec_hist(df %>% filter(EXON_FLAG == 1), "JasmineExon", outfile)
+suppvec_hist(df %>% filter(EXON_FLAG == 1), "JasmineExon", outfile, FALSE)
 outfile <- "/home/mkirsche/jasmine_data/figures/figure2/anno_jasmine_exon_length.png"
 plot_length(df %>% filter(EXON_FLAG == 1), "JasmineExon", outfile)
 

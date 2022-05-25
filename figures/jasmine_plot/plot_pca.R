@@ -13,8 +13,8 @@ library(tidyverse)
 #ofn <- "/home/mkirsche/merged.png"
 
 fn <- "/home/mkirsche/jasmine_data/figures/figure5/plink.eigenvec"
-spofn <- "/home/mkirsche/jasmine_data/figures/figure5/jasmine_paragraph_pca_sp.png"
-ofn <- "/home/mkirsche/jasmine_data/figures/figure5/jasmine_paragraph_pca.png"
+spofn <- "/home/mkirsche/jasmine_data/figures/figure5/jasmine_paragraph_pca_sp.svg"
+ofn <- "/home/mkirsche/jasmine_data/figures/figure5/jasmine_paragraph_pca.svg"
 
 
 df <- read.table(fn, header = FALSE)[, c(1, 3:5)]
@@ -79,7 +79,7 @@ ggplot(data = df, aes(x = pc1, y = pc2)) +
   guides(color = guide_legend(override.aes = list(size=10))) +
   xlab('PC1') +
   ylab('PC2') +
-  ggtitle("Genotyped SVs in 1KGP Samples (Super Population)") +
+  ggtitle("Genotyped Variants in 1KGP Samples (Super Population)") +
   theme(plot.title = element_text(size = 18, hjust = 0.5),
         axis.text.x = element_text(size = 12, angle = 30, margin = margin(t = 15)),
         axis.text.y = element_text(size = 12),
@@ -96,7 +96,7 @@ ggplot(data = df, aes(x = pc1, y = pc2)) +
   guides(color = guide_legend(override.aes = list(size=10))) +
   xlab('PC1') +
   ylab('PC2') +
-  ggtitle("Genotyped SVs in 1KGP Samples (Population)") +
+  ggtitle("Genotyped Variants in 1KGP Samples (Population)") +
 theme(plot.title = element_text(size = 18, hjust = 0.5),
       axis.text.x = element_text(size = 12, angle = 30, margin = margin(t = 15)),
       axis.text.y = element_text(size = 12),
@@ -106,8 +106,6 @@ theme(plot.title = element_text(size = 18, hjust = 0.5),
 ) +
   geom_text(data=lrpoints, aes(pc1, pc2, label = sample_id), size = 2)
 ggsave(ofn, width = 12, height = 8)
-
-
 
 
 
